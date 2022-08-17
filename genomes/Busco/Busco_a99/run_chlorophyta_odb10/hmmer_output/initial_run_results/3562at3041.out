@@ -1,0 +1,38 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold14.g1125.t1  -            937 3562at3041           -            405  1.2e-135  451.0   3.1   1   3   2.5e-66   1.2e-63  213.8   0.0     2   197   134   375   133   416 0.85 -
+scaffold14.g1125.t1  -            937 3562at3041           -            405  1.2e-135  451.0   3.1   2   3   2.7e-41   1.3e-38  131.4   0.5   183   303   424   555   413   561 0.88 -
+scaffold14.g1125.t1  -            937 3562at3041           -            405  1.2e-135  451.0   3.1   3   3     6e-33   2.9e-30  103.9   0.1   303   389   621   725   574   751 0.80 -
+scaffold2.g6870.t1   -            303 3562at3041           -            405   7.1e-09   33.4   0.7   1   1   3.2e-11   1.5e-08   32.3   0.7    29   144    26   137     5   151 0.75 -
+scaffold2.g7184.t1   -           1051 3562at3041           -            405     1e-08   32.9   0.0   1   1   4.6e-11   2.2e-08   31.8   0.0     4    83    77   176    75   193 0.80 -
+scaffold5.g993.t1    -            408 3562at3041           -            405   2.1e-08   31.9   0.0   1   1   9.6e-11   4.7e-08   30.7   0.0    29    90   181   243   164   252 0.85 -
+scaffold9.g3291.t1   -            336 3562at3041           -            405   1.2e-07   29.4   0.0   1   1   4.1e-10     2e-07   28.7   0.0    29   146   109   228    94   252 0.79 -
+scaffold8.g1375.t1   -            309 3562at3041           -            405   7.3e-05   20.2   0.1   1   2       0.3   1.5e+02   -0.5   0.0     3    20    31    48    29    53 0.85 -
+scaffold8.g1375.t1   -            309 3562at3041           -            405   7.3e-05   20.2   0.1   2   2   9.6e-07   0.00047   17.6   0.0    29   129    88   180    65   187 0.79 -
+scaffold20.g7756.t1  -            568 3562at3041           -            405   7.4e-05   20.2   1.2   1   2   5.1e-07   0.00025   18.5   0.2   238   294   332   389   311   398 0.81 -
+scaffold20.g7756.t1  -            568 3562at3041           -            405   7.4e-05   20.2   1.2   2   2       0.2        96    0.1   0.1   303   352   461   522   443   536 0.70 -
+scaffold1.g5404.t1   -            525 3562at3041           -            405   0.00011   19.7   0.0   1   1   3.3e-07   0.00016   19.1   0.0   241   296   234   289   220   299 0.91 -
+scaffold15.g4236.t1  -            485 3562at3041           -            405   0.00037   17.9   0.2   1   1   1.2e-06   0.00059   17.2   0.2   246   302   140   197   113   205 0.77 -
+scaffold19.g1822.t1  -           1158 3562at3041           -            405   0.00041   17.8   7.2   1   2    0.0037       1.8    5.7   0.3   233   297   286   351   281   358 0.73 -
+scaffold19.g1822.t1  -           1158 3562at3041           -            405   0.00041   17.8   7.2   2   2   6.4e-06    0.0031   14.9   1.8   247   303   604   661   579   684 0.80 -
+scaffold1.g5515.t1   -            258 3562at3041           -            405   0.00052   17.4   0.7   1   1   1.5e-06   0.00074   16.9   0.7   252   297    89   133    56   135 0.91 -
+scaffold13.g353.t1   -            797 3562at3041           -            405    0.0017   15.7   0.1   1   2     0.022        11    3.2   0.0   247   299    99   152    67   165 0.80 -
+scaffold13.g353.t1   -            797 3562at3041           -            405    0.0017   15.7   0.1   2   2   0.00017     0.081   10.2   0.0   227   299   399   474   380   487 0.79 -
+scaffold8.g1499.t1   -            597 3562at3041           -            405    0.0019   15.5   0.4   1   1   6.3e-06    0.0031   14.9   0.4   249   302   287   341   272   347 0.89 -
+scaffold16.g25.t1    -            811 3562at3041           -            405     0.011   13.1   0.2   1   2   7.3e-05     0.036   11.4   0.0   190   295    28   139    16   148 0.75 -
+scaffold16.g25.t1    -            811 3562at3041           -            405     0.011   13.1   0.2   2   2      0.68   3.3e+02   -1.7   0.1    99   124   196   221   183   228 0.83 -
+scaffold2.g7448.t1   -            431 3562at3041           -            405     0.029   11.7   0.1   1   1   0.00011     0.054   10.8   0.1   246   302   165   225   134   232 0.86 -
+scaffold1.g5730.t1   -            622 3562at3041           -            405     0.031   11.6   0.1   1   1   9.8e-05     0.048   10.9   0.1   248   271   290   313   259   326 0.80 -
+scaffold5.g740.t1    -            866 3562at3041           -            405      0.11    9.7   5.8   1   2   5.2e-05     0.026   11.8   1.1   241   270   609   640   598   677 0.73 -
+scaffold5.g740.t1    -            866 3562at3041           -            405      0.11    9.7   5.8   2   2      0.28   1.4e+02   -0.4   0.3   105   128   832   855   828   859 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3562at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/3562at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3562at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:47:45 2022
+# [ok]

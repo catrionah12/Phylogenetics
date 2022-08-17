@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PRW33640.1           -            127 8937at3041           -            102   8.1e-35  118.2   0.1   1   1     5e-38   1.7e-34  117.1   0.1     1   102     1   116     1   116 0.88 -
+PRW32601.1           -            107 8937at3041           -            102   8.6e-05   21.8   0.0   1   1   2.9e-08    0.0001   21.6   0.0     1    44     1    46     1    96 0.89 -
+PRW33239.1           -            132 8937at3041           -            102     0.015   14.6   0.0   1   1   6.4e-06     0.022   14.0   0.0     7    62     4    64     2    97 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/8937at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_sorokiniana/run_chlorophyta_odb10/hmmer_output/initial_run_results/8937at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/8937at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:38:31 2022
+# [ok]

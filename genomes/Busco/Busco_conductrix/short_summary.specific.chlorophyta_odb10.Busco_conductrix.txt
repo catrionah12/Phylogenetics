@@ -1,0 +1,17 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: chlorophyta_odb10 (Creation date: 2020-08-05, number of genomes: 16, number of BUSCOs: 1519)
+# Summarized benchmarking in BUSCO notation for file /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:96.0%[S:88.4%,D:7.6%],F:0.7%,M:3.3%,n:1519	   
+	1459	Complete BUSCOs (C)			   
+	1343	Complete and single-copy BUSCOs (S)	   
+	116	Complete and duplicated BUSCOs (D)	   
+	11	Fragmented BUSCOs (F)			   
+	49	Missing BUSCOs (M)			   
+	1519	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1

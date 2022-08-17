@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+XP_005846943.1       -            410 832at3041            -            399  2.1e-171  569.1  10.4   1   2   5.6e-46   1.4e-42  145.0   6.2     1   163    30   183    30   187 0.87 -
+XP_005846943.1       -            410 832at3041            -            399  2.1e-171  569.1  10.4   2   2  8.4e-128  2.1e-124  414.4   0.1   203   399   195   404   190   404 0.95 -
+XP_005843115.1       -            621 832at3041            -            399   7.1e-24   83.4   0.3   1   2   1.6e-05     0.039   11.8   0.2     3    81    12   100    10   109 0.76 -
+XP_005843115.1       -            621 832at3041            -            399   7.1e-24   83.4   0.3   2   2   4.8e-23   1.2e-19   69.5   0.0   159   369   299   517   292   549 0.86 -
+XP_005843436.1       -            423 832at3041            -            399   3.5e-09   35.0   0.5   1   2   1.1e-09   2.6e-06   25.5   0.2    54   152    93   206    58   283 0.68 -
+XP_005843436.1       -            423 832at3041            -            399   3.5e-09   35.0   0.5   2   2   0.00065       1.6    6.5   0.0   291   372   283   362   265   369 0.74 -
+XP_005846400.1       -             68 832at3041            -            399    0.0023   15.9   0.1   1   1     1e-06    0.0025   15.7   0.1    55    85     8    38     4    52 0.86 Chlorella variabilis unplaced genomic scaffold CHLNCscaffold_14, whole genome shotgun sequence.
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/832at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/832at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/832at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:08:02 2022
+# [ok]

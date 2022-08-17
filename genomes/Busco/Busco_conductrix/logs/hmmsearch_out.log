@@ -1,0 +1,89 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/7956at3041.hmm
+# target sequence database:        /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# per-dom hits tabular output:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/7956at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7956at3041  [M=152]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    4.3e-62  208.0  15.6    9.9e-62  206.8  15.6    1.6  1  PSC71949.1  
+    6.3e-06   25.6   0.1    1.4e-05   24.5   0.1    1.5  1  PSC76290.1  
+    6.4e-06   25.6   0.1    1.4e-05   24.5   0.1    1.5  1  PSC76291.1  
+
+
+Domain annotation for each sequence (and alignments):
+>> PSC71949.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  206.8  15.6   2.9e-65   9.9e-62       1     152 []      63     235 ..      63     235 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 206.8 bits;  conditional E-value: 2.9e-65
+  7956at3041   1 tldesvwktlkrdvkriaknlkavlip......qaqalrnWdlwGPlvfvlvlaivlsvga...sevfsvvfatvalgavvltvnvlllGg.iiflqal 89 
+                 tlde++w+t+krd+ ri+knl++v++p      q++alrnWdlwGP++fvl lai ls+ga   s++fs+vfa v++ga+vltvnv+llGg i f+q+l
+  PSC71949.1  63 TLDEPIWATVKRDLLRIYKNLVMVVFPfkdrsqQSAALRNWDLWGPMIFVLGLAISLSIGAataSKTFSLVFALVSVGAIVLTVNVVLLGGtIGFFQSL 161
+                 8************************986666557789*********************98533389***********************97588***** PP
+
+  7956at3041  90 sllGycllplvvaaivc........rlivv...vawasaasvpfvsaavpaerkalavypvvllyvslgllalv 152
+                 +llGycl+p++vaaivc        r+ivv   v+w+s+as+pf+++avpa+r+ala+yp+ lly+++g+lal+
+  PSC71949.1 162 CLLGYCLFPMDVAAIVCvtvklmlvRWIVVpimVVWSSWASIPFIGGAVPANRRALAIYPLCLLYTAIGWLALI 235
+                 **************99866655555777645449**************************************97 PP
+
+>> PSC76290.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.1     4e-09   1.4e-05       6     106 ..      62     172 ..      57     200 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 4e-09
+  7956at3041   6 vwktlkrdvkriaknlkavlipqa..qalrnWdlwGPlvfvlvlaivlsvgasevfsvvfatvalgavvltvnvlllGg........iiflqalsllGy 94 
+                 + + l  d+  i + +++vl+ q   + + + d+ GPl+f+ +l+ +  +     f  ++  + +ga++l   +  + g        + ++   +llGy
+  PSC76290.1  62 LLEELGIDIPSILRRTRSVLTFQLsgHDMEHLDMGGPLIFMALLGFAHLLVGKMHFGYILGWMVVGAILLWSVLNSITGsddpdatsLDLYSCTCLLGY 160
+                 56667789999*********98752268999***********9999887778889**************97766655433444444489********** PP
+
+  7956at3041  95 cllplvvaaivc 106
+                  llplv+ a+++
+  PSC76290.1 161 ALLPLVLHALLA 172
+                 *******99875 PP
+
+>> PSC76291.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.1   4.1e-09   1.4e-05       6     106 ..      62     172 ..      57     200 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 4.1e-09
+  7956at3041   6 vwktlkrdvkriaknlkavlipqa..qalrnWdlwGPlvfvlvlaivlsvgasevfsvvfatvalgavvltvnvlllGg........iiflqalsllGy 94 
+                 + + l  d+  i + +++vl+ q   + + + d+ GPl+f+ +l+ +  +     f  ++  + +ga++l   +  + g        + ++   +llGy
+  PSC76291.1  62 LLEELGIDIPSILRRTRSVLTFQLsgHDMEHLDMGGPLIFMALLGFAHLLVGKMHFGYILGWMVVGAILLWSVLNSITGsddpdatsLDLYSCTCLLGY 160
+                 56667789999*********98752268999***********9999887778889**************97766655433444444489********** PP
+
+  7956at3041  95 cllplvvaaivc 106
+                  llplv+ a+++
+  PSC76291.1 161 ALLPLVLHALLA 172
+                 *******99875 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (152 nodes)
+Target sequences:                        10070  (6540070 residues searched)
+Passed MSV filter:                       338  (0.033565); expected 201.4 (0.02)
+Passed bias filter:                      170  (0.0168818); expected 201.4 (0.02)
+Passed Vit filter:                        17  (0.00168818); expected 10.1 (0.001)
+Passed Fwd filter:                         3  (0.000297915); expected 0.1 (1e-05)
+Initial search space (Z):              10070  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.47u 0.00s 00:00:00.47 Elapsed: 00:00:00.44
+# Mc/sec: 2259.30
+//
+[ok]

@@ -1,0 +1,1 @@
+(c_sorokiniana_genome_proteins_PRW58426.1:0.222456,((c_variabilis_genome_proteins_XP_005851368.1:0.234453,c_vulgaris_genome_proteins_KAI3433922.1:0.217881)n2:0.105699,a99_genome_proteins_scaffold1.g5196.t1:0.551482)n1:0.222456)n0;

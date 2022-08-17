@@ -1,0 +1,35 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3434797.1         -            413 5785at3041           -            323  4.3e-121  403.3   2.3   1   2   1.3e-84     2e-81  272.9   1.4     1   233     1   284     1   286 0.87 -
+KAI3434797.1         -            413 5785at3041           -            323  4.3e-121  403.3   2.3   2   2   2.9e-40   4.6e-37  127.2   0.0   229   323   308   412   302   412 0.90 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   1   7    0.0023       3.7    5.9   0.1    14    91   464   534   452   540 0.81 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   2   7    0.0021       3.3    6.0   0.1    13    91   539   610   524   616 0.80 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   3   7    0.0029       4.6    5.6   0.0    14    91   616   686   613   692 0.80 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   4   7    0.0021       3.4    6.0   0.1    13    91   691   762   676   768 0.80 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   5   7    0.0019         3    6.2   0.1    13    93   767   840   752   845 0.81 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   6   7    0.0029       4.6    5.6   0.0    14    91   844   914   841   920 0.80 -
+KAI3427077.1         -            981 5785at3041           -            323   7.9e-09   34.4  12.3   7   7     0.013        20    3.5   0.1    13    41   919   947   904   976 0.78 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   1   7    0.0025       3.9    5.8   0.1    14    91   521   591   509   597 0.81 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   2   7    0.0031       4.9    5.5   0.0    14    91   597   667   594   673 0.80 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   3   7    0.0025         4    5.8   0.1    13    90   672   742   657   748 0.79 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   4   7    0.0018       2.8    6.3   0.1    13    94   748   822   733   828 0.81 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   5   7    0.0019         3    6.2   0.1    13    93   824   897   809   903 0.81 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   6   7    0.0019       3.1    6.2   0.1    13    93   900   973   885   979 0.81 -
+KAI3427078.1         -           1038 5785at3041           -            323   1.2e-08   33.8  12.3   7   7     0.013        20    3.4   0.1    13    41   976  1004   961  1035 0.77 -
+KAI3436814.1         -            234 5785at3041           -            323   8.2e-06   24.5   2.1   1   3   0.00025       0.4    9.1   0.1    14    95    17    91     3    96 0.83 -
+KAI3436814.1         -            234 5785at3041           -            323   8.2e-06   24.5   2.1   2   3   6.9e-05      0.11   10.9   0.3    13    96    92   168    77   170 0.86 -
+KAI3436814.1         -            234 5785at3041           -            323   8.2e-06   24.5   2.1   3   3   0.00091       1.5    7.2   0.1     1    73   153   221   153   230 0.74 -
+KAI3435563.1         -            101 5785at3041           -            323    0.0092   14.4   0.0   1   1   5.7e-06    0.0092   14.4   0.0    16   102    20    98     3   100 0.78 -
+KAI3429479.1         -            153 5785at3041           -            323     0.033   12.6   0.1   1   1   2.7e-05     0.042   12.3   0.1    17    91    17    84     2    98 0.83 -
+KAI3428657.1         -            111 5785at3041           -            323      0.11   10.9   0.0   1   1   8.4e-05      0.13   10.6   0.0    13    44    27    58    24    85 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5785at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/5785at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5785at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:38:38 2022
+# [ok]

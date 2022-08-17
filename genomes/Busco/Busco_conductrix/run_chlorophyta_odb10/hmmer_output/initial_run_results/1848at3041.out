@@ -1,0 +1,35 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC71207.1           -            520 1848at3041           -            332  1.7e-144  480.2  12.0   1   2     1e-86   8.5e-84  280.7   0.4     1   197    81   329    81   333 0.84 -
+PSC71207.1           -            520 1848at3041           -            332  1.7e-144  480.2  12.0   2   2   1.9e-61   1.6e-58  197.6   5.9   195   332   347   515   339   515 0.91 -
+PSC74502.1           -            965 1848at3041           -            332   6.1e-07   28.1   0.0   1   3     0.014        11    4.2   0.0   105   139   155   191   140   204 0.83 -
+PSC74502.1           -            965 1848at3041           -            332   6.1e-07   28.1   0.0   2   3    0.0025       2.1    6.6   0.0   234   280   719   768   714   774 0.81 -
+PSC74502.1           -            965 1848at3041           -            332   6.1e-07   28.1   0.0   3   3   2.2e-05     0.018   13.4   0.0   276   331   884   939   880   940 0.93 -
+PSC70741.1           -            502 1848at3041           -            332   8.8e-05   21.0   0.1   1   1     2e-07   0.00017   20.0   0.1   234   331   387   497   383   498 0.74 -
+PSC77008.1           -            915 1848at3041           -            332    0.0004   18.8   0.1   1   3      0.61   5.1e+02   -1.3   0.0   112   147    23    60    19    66 0.78 -
+PSC77008.1           -            915 1848at3041           -            332    0.0004   18.8   0.1   2   3     0.045        38    2.5   0.0   135   179    71   115    57   133 0.84 -
+PSC77008.1           -            915 1848at3041           -            332    0.0004   18.8   0.1   3   3   3.7e-05     0.031   12.6   0.0   234   322   284   386   279   395 0.77 -
+PSC76356.1           -           1078 1848at3041           -            332   0.00072   18.0   0.0   1   1     2e-06    0.0017   16.7   0.0   233   331   922  1040   918  1041 0.79 -
+PSC76355.1           -           1080 1848at3041           -            332   0.00072   18.0   0.0   1   1     2e-06    0.0017   16.7   0.0   233   331   924  1042   920  1043 0.79 -
+PSC70713.1           -            222 1848at3041           -            332    0.0016   16.9   0.0   1   1   2.6e-06    0.0022   16.4   0.0   249   296    31    79    28   103 0.85 -
+PSC70187.1           -           2544 1848at3041           -            332    0.0074   14.7   0.0   1   2   2.5e-05     0.021   13.2   0.0   234   281   976  1023   971  1038 0.86 -
+PSC70187.1           -           2544 1848at3041           -            332    0.0074   14.7   0.0   2   2       1.6   1.4e+03   -2.7   0.0   277   331  1041  1098  1034  1099 0.74 -
+PSC73309.1           -           2008 1848at3041           -            332     0.023   13.0   0.0   1   2       2.8   2.3e+03   -3.4   0.0   112   141   969  1000   964  1003 0.80 -
+PSC73309.1           -           2008 1848at3041           -            332     0.023   13.0   0.0   2   2   6.7e-05     0.057   11.7   0.0   273   331  1212  1271  1154  1272 0.69 -
+PSC73310.1           -           2008 1848at3041           -            332     0.023   13.0   0.0   1   2       2.8   2.3e+03   -3.4   0.0   112   141   969  1000   964  1003 0.80 -
+PSC73310.1           -           2008 1848at3041           -            332     0.023   13.0   0.0   2   2   6.7e-05     0.057   11.7   0.0   273   331  1212  1271  1154  1272 0.69 -
+PSC75814.1           -            606 1848at3041           -            332     0.041   12.2   0.6   1   1   8.3e-05      0.07   11.4   0.6    22    72   303   355   299   374 0.83 -
+PSC76595.1           -            513 1848at3041           -            332     0.047   12.0   0.1   1   3      0.86   7.2e+02   -1.8   0.0   112   137   110   137    89   143 0.76 -
+PSC76595.1           -            513 1848at3041           -            332     0.047   12.0   0.1   2   3     0.015        13    4.0   0.1   236   270   298   334   292   342 0.77 -
+PSC76595.1           -            513 1848at3041           -            332     0.047   12.0   0.1   3   3    0.0097       8.1    4.6   0.0   273   310   430   468   426   480 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/1848at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/1848at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/1848at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:13:28 2022
+# [ok]

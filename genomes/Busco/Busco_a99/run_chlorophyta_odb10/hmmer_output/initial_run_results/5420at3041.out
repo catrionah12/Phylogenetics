@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold12.g8135.t1  -            427 5420at3041           -            299   8.7e-88  293.2   0.3   1   4   1.8e-09   2.1e-06   25.9   0.1     1    38     4    44     4    52 0.79 -
+scaffold12.g8135.t1  -            427 5420at3041           -            299   8.7e-88  293.2   0.3   2   4   2.3e-05     0.027   12.4   0.0    71    98    53    80    46    89 0.87 -
+scaffold12.g8135.t1  -            427 5420at3041           -            299   8.7e-88  293.2   0.3   3   4   7.9e-46   9.3e-43  145.3   0.0   110   212   135   244   119   251 0.88 -
+scaffold12.g8135.t1  -            427 5420at3041           -            299   8.7e-88  293.2   0.3   4   4   2.1e-33   2.5e-30  104.5   0.0   212   286   296   377   291   386 0.90 -
+scaffold3.g6669.t1   -            359 5420at3041           -            299   3.5e-40  136.8   0.0   1   1   2.6e-42   3.1e-39  133.8   0.0     2   285    10   308     9   314 0.79 -
+scaffold10.g2382.t1  -           1119 5420at3041           -            299     8e-33  112.7   0.0   1   2   4.6e-08   5.5e-05   21.3   0.0    46   108   761   829   757   849 0.85 -
+scaffold10.g2382.t1  -           1119 5420at3041           -            299     8e-33  112.7   0.0   2   2   1.2e-28   1.4e-25   88.9   0.0   117   296   864  1063   837  1066 0.79 -
+scaffold20.g7834.t1  -            391 5420at3041           -            299     1e-19   69.7   0.0   1   2   3.8e-13   4.5e-10   38.0   0.0     2   158    10   212     9   214 0.69 -
+scaffold20.g7834.t1  -            391 5420at3041           -            299     1e-19   69.7   0.0   2   2   4.3e-10   5.1e-07   28.0   0.0   180   291   212   335   209   340 0.78 -
+scaffold18.g2053.t1  -            406 5420at3041           -            299   2.2e-10   39.0   0.0   1   2   1.1e-11   1.3e-08   33.2   0.0    51   164    65   193     9   195 0.80 -
+scaffold18.g2053.t1  -            406 5420at3041           -            299   2.2e-10   39.0   0.0   2   2     0.011        13    3.7   0.0   214   284   263   344   250   353 0.72 -
+scaffold19.g1808.t1  -            257 5420at3041           -            299   6.3e-06   24.4   0.0   1   2     2e-06    0.0024   15.9   0.0   162   233    63   126    60   132 0.86 -
+scaffold19.g1808.t1  -            257 5420at3041           -            299   6.3e-06   24.4   0.0   2   2    0.0016       1.8    6.4   0.0   254   283   171   201   151   217 0.82 -
+scaffold19.g1810.t1  -            148 5420at3041           -            299   0.00027   19.1   0.0   1   1   8.7e-06      0.01   13.8   0.0    45   104    76   138    11   147 0.65 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5420at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/5420at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5420at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:48:49 2022
+# [ok]

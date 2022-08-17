@@ -1,0 +1,1 @@
+((a99_genome_proteins_scaffold7.g3730.t1:0.66417,a99_genome_proteins_scaffold7.g3734.t1:0.0872433)n1:0.310446,((c_variabilis_genome_proteins_XP_005846103.1:0.315992,c_sorokiniana_genome_proteins_PRW44328.1:0.684675)n3:0.337306,(c_sorokiniana_genome_proteins_PRW33842.1:1.00538,c_variabilis_genome_proteins_XP_005843331.1:0.406773)n4:0.0647563)n2:0.00719514)n0;

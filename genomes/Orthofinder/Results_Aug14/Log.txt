@@ -1,0 +1,15 @@
+2022-08-14 21:18:59 : Started OrthoFinder version 2.5.4
+Command Line: /Users/catrionaharrison/opt/anaconda3/envs/rp2-env/bin/orthofinder -f sequences
+
+WorkingDirectory_Base: /Users/catrionaharrison/Documents/Bioinformatics/rp2/genomes/proteins/protein_sequences/sequences/OrthoFinder/Results_Aug14/WorkingDirectory/
+
+Species used: 
+0: a99_genome_proteins.faa
+1: c_sorokiniana_genome_proteins.faa
+2: c_variabilis_genome_proteins.faa
+3: c_vulgaris_genome_proteins.faa
+4: m_conductrix_genome_proteins.faa
+
+FN_Orthogroups: /Users/catrionaharrison/Documents/Bioinformatics/rp2/genomes/proteins/protein_sequences/sequences/OrthoFinder/Results_Aug14/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: /Users/catrionaharrison/Documents/Bioinformatics/rp2/genomes/proteins/protein_sequences/sequences/OrthoFinder/Results_Aug14/WorkingDirectory/
+2022-08-14 21:29:23 : OrthoFinder run completed

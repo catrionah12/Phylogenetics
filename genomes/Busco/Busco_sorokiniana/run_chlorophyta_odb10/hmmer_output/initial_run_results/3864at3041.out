@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PRW60955.1           -            498 3864at3041           -            199   2.7e-73  245.1   3.9   1   3   1.6e-16   2.3e-13   49.5   0.1     1    60    88   156    88   168 0.79 -
+PRW60955.1           -            498 3864at3041           -            199   2.7e-73  245.1   3.9   2   3   4.1e-23   6.1e-20   71.0   0.4    51   118   195   280   193   287 0.84 -
+PRW60955.1           -            498 3864at3041           -            199   2.7e-73  245.1   3.9   3   3     2e-39   2.9e-36  124.2   0.0   117   198   372   461   366   462 0.88 -
+PRW58774.1           -            390 3864at3041           -            199   2.1e-06   26.8   0.2   1   1   6.4e-09   9.5e-06   24.7   0.2     1    87   106   211   106   251 0.69 -
+PRW33304.1           -            393 3864at3041           -            199   4.4e-06   25.7   0.2   1   1   1.1e-08   1.6e-05   23.9   0.2     2    74    81   170    80   179 0.77 -
+PRW60312.1           -           1564 3864at3041           -            199    0.0027   16.6   0.2   1   2    0.0011       1.6    7.6   0.0     1    37  1093  1134  1093  1142 0.80 -
+PRW60312.1           -           1564 3864at3041           -            199    0.0027   16.6   0.2   2   2    0.0031       4.6    6.1   0.0    47    66  1233  1252  1212  1274 0.71 -
+PRW58197.1           -            372 3864at3041           -            199     0.012   14.6   0.2   1   3    0.0033         5    6.0   0.0     2    41    99   141    98   148 0.80 -
+PRW58197.1           -            372 3864at3041           -            199     0.012   14.6   0.2   2   3    0.0038       5.6    5.8   0.0    51    76   180   210   175   232 0.77 -
+PRW58197.1           -            372 3864at3041           -            199     0.012   14.6   0.2   3   3         2   2.9e+03   -3.1   0.0    78   103   334   359   326   367 0.57 -
+PRW20696.1           -            179 3864at3041           -            199     0.071   12.0   0.1   1   2   0.00015      0.22   10.4   0.1    23    67    16    74     8    78 0.74 -
+PRW20696.1           -            179 3864at3041           -            199     0.071   12.0   0.1   2   2      0.56   8.3e+02   -1.3   0.0   102   121    73    93    70    95 0.74 -
+PRW60024.1           -            347 3864at3041           -            199     0.077   11.9   0.3   1   2    0.0021         3    6.7   0.1    52    65   138   151    88   157 0.71 -
+PRW60024.1           -            347 3864at3041           -            199     0.077   11.9   0.3   2   2     0.074   1.1e+02    1.6   0.0   168   189   307   328   298   332 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3864at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_sorokiniana/run_chlorophyta_odb10/hmmer_output/initial_run_results/3864at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3864at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:34:51 2022
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold3.g6278.t1   -            506 3854at3041           -            339  1.2e-133  444.4   1.4   1   2   1.1e-12   1.5e-09   36.4   0.0     2    33    56    87    55   109 0.92 -
+scaffold3.g6278.t1   -            506 3854at3041           -            339  1.2e-133  444.4   1.4   2   2  2.3e-123  3.2e-120  400.2   0.3    28   335   128   493   121   500 0.86 -
+scaffold8.g1385.t1   -            447 3854at3041           -            339   6.3e-18   63.9   0.4   1   2     0.076   1.1e+02    0.7   0.1    36    88    72   123    54   138 0.64 -
+scaffold8.g1385.t1   -            447 3854at3041           -            339   6.3e-18   63.9   0.4   2   2     5e-20     7e-17   60.4   0.0   195   330   276   418   246   424 0.83 -
+scaffold2.g6799.t1   -            656 3854at3041           -            339   1.3e-10   39.8   0.0   1   1   1.8e-13   2.5e-10   38.9   0.0   171   334   184   352   169   357 0.73 -
+scaffold1.g5834.t1   -           1157 3854at3041           -            339   1.3e-07   30.0   0.1   1   2      0.12   1.6e+02    0.0   0.0    13    37    89   110    78   134 0.72 -
+scaffold1.g5834.t1   -           1157 3854at3041           -            339   1.3e-07   30.0   0.1   2   2   6.5e-10     9e-07   27.2   0.0   219   330   317   428   240   435 0.64 -
+scaffold1.g5770.t1   -           1645 3854at3041           -            339      0.02   12.9   0.0   1   1     3e-05     0.041   11.9   0.0   198   292  1091  1198  1057  1216 0.67 -
+scaffold1.g5311.t1   -            460 3854at3041           -            339     0.021   12.8   0.0   1   1   2.4e-05     0.033   12.2   0.0   221   280   218   277   197   323 0.87 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3854at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/3854at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3854at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:48:24 2022
+# [ok]

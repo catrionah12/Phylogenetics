@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC70395.1           -            336 4063at3041           -            209   5.5e-73  244.1   5.6   1   2   1.5e-35   7.7e-32  109.6   6.0     8    90    22   114     1   121 0.82 -
+PSC70395.1           -            336 4063at3041           -            209   5.5e-73  244.1   5.6   2   2   7.5e-42   3.8e-38  130.2   0.0    91   209   172   316   159   316 0.86 -
+PSC75143.1           -            484 4063at3041           -            209     1e-06   27.6   0.0   1   2   1.9e-05     0.093   11.3   0.0    43    88    32    85    14    99 0.74 -
+PSC75143.1           -            484 4063at3041           -            209     1e-06   27.6   0.0   2   2   4.4e-06     0.022   13.4   0.0    48   113   326   400   291   409 0.68 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4063at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/4063at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4063at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:17:21 2022
+# [ok]

@@ -1,0 +1,43 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold21.g2160.t1  -            276 3120at3041           -            260  1.5e-101  338.4   1.5   1   2   5.6e-79     2e-76  256.0   0.0    10   161    59   220    43   221 0.91 -
+scaffold21.g2160.t1  -            276 3120at3041           -            260  1.5e-101  338.4   1.5   2   2   1.6e-26   5.7e-24   84.0   0.6   205   260   219   274   218   274 0.98 -
+scaffold26.g3319.t1  -            386 3120at3041           -            260   1.2e-48  164.9   0.6   1   1   6.7e-51   2.4e-48  163.9   0.6    23   260    97   367    81   367 0.80 -
+scaffold27.g5982.t1  -            832 3120at3041           -            260   3.6e-17   61.7   0.0   1   1   2.2e-19   7.9e-17   60.6   0.0    62   165   614   720   607   778 0.77 -
+scaffold18.g1978.t1  -            377 3120at3041           -            260   1.6e-16   59.6   0.0   1   1   7.3e-19   2.6e-16   58.9   0.0    17   163    97   254    83   260 0.78 -
+scaffold8.g1502.t1   -            347 3120at3041           -            260   3.6e-10   38.8   0.0   1   1   1.5e-12   5.3e-10   38.3   0.0    58   162   148   255   141   301 0.85 -
+scaffold6.g2591.t1   -            902 3120at3041           -            260   4.2e-08   32.0   0.0   1   1   1.8e-10   6.5e-08   31.4   0.0    58   159   181   291   172   305 0.79 -
+scaffold8.g1498.t1   -           1229 3120at3041           -            260   9.3e-08   30.9   0.0   1   1   4.7e-10   1.7e-07   30.0   0.0    61   171   115   226   100   269 0.84 -
+scaffold9.g3221.t1   -            329 3120at3041           -            260   1.2e-05   23.9   0.0   1   2   0.00028     0.099   11.1   0.0    63   102   133   172   123   184 0.87 -
+scaffold9.g3221.t1   -            329 3120at3041           -            260   1.2e-05   23.9   0.0   2   2   0.00035      0.12   10.8   0.0   109   161   204   256   174   261 0.87 -
+scaffold24.g2978.t1  -           1116 3120at3041           -            260   0.00015   20.3   0.1   1   1   8.6e-07   0.00031   19.3   0.1    59   169   119   233   115   248 0.78 -
+scaffold6.g2864.t1   -            339 3120at3041           -            260   0.00028   19.5   0.0   1   1   2.2e-06    0.0008   18.0   0.0    60   154   132   221   124   228 0.71 -
+scaffold19.g1802.t1  -            894 3120at3041           -            260    0.0004   19.0   0.0   1   2       1.3   4.8e+02   -1.0   0.0    33    82   198   249   177   256 0.82 -
+scaffold19.g1802.t1  -            894 3120at3041           -            260    0.0004   19.0   0.0   2   2   6.6e-06    0.0024   16.4   0.0    62   157   713   822   706   837 0.72 -
+scaffold21.g2138.t1  -            611 3120at3041           -            260    0.0014   17.2   0.0   1   1   7.9e-06    0.0028   16.2   0.0    60   165   339   449   328   463 0.79 -
+scaffold4.g4996.t1   -            407 3120at3041           -            260    0.0035   15.9   0.0   1   2    0.0013      0.48    8.9   0.0    63    97   193   229   186   248 0.78 -
+scaffold4.g4996.t1   -            407 3120at3041           -            260    0.0035   15.9   0.0   2   2     0.024       8.7    4.8   0.0   110   161   282   335   259   349 0.79 -
+scaffold20.g7837.t1  -           1018 3120at3041           -            260    0.0044   15.6   0.0   1   1   2.2e-05    0.0079   14.7   0.0    97   163   828   896   813   900 0.78 -
+scaffold9.g3049.t1   -           1105 3120at3041           -            260    0.0066   15.0   0.1   1   1   3.4e-05     0.012   14.1   0.1    42    91   633   687   595   695 0.79 -
+scaffold9.g3185.t1   -            269 3120at3041           -            260     0.014   13.9   0.0   1   1   5.6e-05      0.02   13.4   0.0   118   159   159   200   126   215 0.83 -
+scaffold16.g67.t1    -            795 3120at3041           -            260      0.02   13.4   0.0   1   1   9.1e-05     0.033   12.7   0.0    62   161    13   120     2   124 0.67 -
+scaffold1.g5360.t1   -           1069 3120at3041           -            260     0.021   13.4   0.2   1   3       2.4   8.6e+02   -1.8   0.0    62    91    30    60    23    82 0.81 -
+scaffold1.g5360.t1   -           1069 3120at3041           -            260     0.021   13.4   0.2   2   3   0.00056       0.2   10.1   0.0   119   160   126   167   120   183 0.83 -
+scaffold1.g5360.t1   -           1069 3120at3041           -            260     0.021   13.4   0.2   3   3       1.4   5.1e+02   -1.0   0.1    45    89   662   709   654   725 0.74 -
+scaffold4.g4799.t1   -            275 3120at3041           -            260     0.021   13.3   0.0   1   1   8.7e-05     0.031   12.8   0.0   112   162   160   210   125   225 0.81 -
+scaffold1.g5300.t1   -            446 3120at3041           -            260     0.022   13.3   0.0   1   2       6.9   2.5e+03   -3.3   0.0    60    95   118   156    93   165 0.61 -
+scaffold1.g5300.t1   -            446 3120at3041           -            260     0.022   13.3   0.0   2   2   0.00017     0.061   11.8   0.0   120   157   229   266   205   275 0.92 -
+scaffold14.g1288.t1  -            219 3120at3041           -            260     0.031   12.8   0.0   1   1   0.00012     0.044   12.3   0.0    63   160    45   147    40   152 0.83 -
+scaffold8.g1499.t1   -            597 3120at3041           -            260     0.033   12.7   0.1   1   1   0.00015     0.053   12.0   0.1    58   107   286   336   266   368 0.75 -
+scaffold15.g4240.t1  -            589 3120at3041           -            260     0.068   11.7   0.0   1   1   0.00036      0.13   10.8   0.0    63   108   418   463   378   478 0.80 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3120at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/3120at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3120at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:45:53 2022
+# [ok]

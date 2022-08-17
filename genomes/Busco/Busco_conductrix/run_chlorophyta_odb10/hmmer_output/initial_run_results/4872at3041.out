@@ -1,0 +1,38 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC76139.1           -            295 4872at3041           -            185     2e-71  238.3   0.1   1   2     1e-08   8.5e-06   24.4   0.1     1    34    45    79    45    92 0.89 -
+PSC76139.1           -            295 4872at3041           -            185     2e-71  238.3   0.1   2   2   8.8e-66   7.4e-63  210.4   0.0    29   184    92   285    80   286 0.88 -
+PSC68240.1           -            507 4872at3041           -            185   2.8e-17   61.8   3.2   1   3   0.00036       0.3    9.5   0.7     1    30   278   308   278   314 0.89 -
+PSC68240.1           -            507 4872at3041           -            185   2.8e-17   61.8   3.2   2   3   3.1e-17   2.6e-14   52.1   0.0    38   123   340   433   328   436 0.86 -
+PSC68240.1           -            507 4872at3041           -            185   2.8e-17   61.8   3.2   3   3       5.9     5e+03   -4.2   0.0   153   166   464   477   460   481 0.80 -
+PSC74091.1           -            889 4872at3041           -            185   2.9e-13   48.7   0.1   1   2      0.07        58    2.1   0.1     1    33    98   131    98   140 0.85 -
+PSC74091.1           -            889 4872at3041           -            185   2.9e-13   48.7   0.1   2   2   1.5e-14   1.3e-11   43.4   0.0    57   121   198   266   168   307 0.84 -
+PSC75336.1           -            247 4872at3041           -            185     4e-08   32.0   0.1   1   2       0.5   4.2e+02   -0.7   0.0     1    32     3    36     3    50 0.69 -
+PSC75336.1           -            247 4872at3041           -            185     4e-08   32.0   0.1   2   2   2.6e-10   2.2e-07   29.6   0.0    54   164    92   208    90   214 0.70 -
+PSC76756.1           -           1092 4872at3041           -            185   5.4e-08   31.5   1.9   1   2   0.00042      0.35    9.3   0.5     1    31   109   140   109   148 0.85 -
+PSC76756.1           -           1092 4872at3041           -            185   5.4e-08   31.5   1.9   2   2   2.2e-07   0.00018   20.0   0.0    74   125   432   497   429   499 0.78 -
+PSC74444.1           -            289 4872at3041           -            185     6e-08   31.4   0.7   1   2      0.05        42    2.6   0.1     4    45    74   115    71   127 0.76 -
+PSC74444.1           -            289 4872at3041           -            185     6e-08   31.4   0.7   2   2     2e-09   1.7e-06   26.7   0.1    40   132   135   237   118   271 0.76 -
+PSC75759.1           -            226 4872at3041           -            185   6.6e-08   31.3   0.0   1   1   1.3e-10   1.1e-07   30.5   0.0    57   123    62   137    44   141 0.79 -
+PSC74312.1           -            240 4872at3041           -            185   2.7e-07   29.3   1.5   1   1   4.6e-09   3.9e-06   25.5   1.5    59   126    84   166     4   201 0.77 -
+PSC67716.1           -           1081 4872at3041           -            185   5.4e-07   28.3   4.6   1   4   2.4e-05      0.02   13.4   0.1     1    49   123   172   123   190 0.83 -
+PSC67716.1           -           1081 4872at3041           -            185   5.4e-07   28.3   4.6   2   4      0.54   4.6e+02   -0.8   0.1    40    71   208   239   196   245 0.79 -
+PSC67716.1           -           1081 4872at3041           -            185   5.4e-07   28.3   4.6   3   4   9.5e-06     0.008   14.7   0.0    73   122   460   510   446   522 0.86 -
+PSC67716.1           -           1081 4872at3041           -            185   5.4e-07   28.3   4.6   4   4       4.6   3.8e+03   -3.8   0.3    25    50   625   652   607   654 0.60 -
+PSC68750.1           -            702 4872at3041           -            185     2e-06   26.4   0.4   1   2      0.12        98    1.4   0.1     4    46   490   532   487   539 0.70 -
+PSC68750.1           -            702 4872at3041           -            185     2e-06   26.4   0.4   2   2   3.3e-08   2.8e-05   22.7   0.0    40   131   551   652   536   681 0.72 -
+PSC71557.1           -           1682 4872at3041           -            185   0.00017   20.1   4.1   1   3      0.55   4.6e+02   -0.8   0.2    17    60   893   936   881   941 0.73 -
+PSC71557.1           -           1682 4872at3041           -            185   0.00017   20.1   4.1   2   3    0.0078       6.5    5.2   0.2     1    34  1036  1070  1036  1085 0.87 -
+PSC71557.1           -           1682 4872at3041           -            185   0.00017   20.1   4.1   3   3   2.3e-05     0.019   13.4   0.0    86   158  1388  1459  1360  1472 0.80 -
+PSC72172.1           -            389 4872at3041           -            185    0.0017   16.9   0.2   1   1    0.0001     0.085   11.3   0.2     2   119    76   216    75   266 0.66 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4872at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/4872at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4872at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:20:04 2022
+# [ok]

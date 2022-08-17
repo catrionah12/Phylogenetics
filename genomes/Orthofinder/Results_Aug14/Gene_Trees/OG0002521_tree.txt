@@ -1,0 +1,1 @@
+(m_conductrix_genome_proteins_PSC73425.1:0.142924,(((c_variabilis_genome_proteins_XP_005849184.1:0.295655,a99_genome_proteins_scaffold17.g585.t1:0.454041):0.0522732,a99_genome_proteins_scaffold17.g584.t1:0.382563):0.0674776,c_variabilis_genome_proteins_XP_005849380.1:0.134085):0.142924);

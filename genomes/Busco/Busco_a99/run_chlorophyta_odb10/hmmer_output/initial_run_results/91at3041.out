@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold4.g4579.t1   -           3168 91at3041             -            820         0 1088.1   0.0   1   3   5.6e-28   7.7e-25   85.7   0.0     2    63  1460  1522  1459  1526 0.96 -
+scaffold4.g4579.t1   -           3168 91at3041             -            820         0 1088.1   0.0   2   3  4.2e-103  5.8e-100  334.2   0.0    64   309  1551  1840  1541  1871 0.87 -
+scaffold4.g4579.t1   -           3168 91at3041             -            820         0 1088.1   0.0   3   3  7.8e-203  1.1e-199  664.1   0.0   316   814  1890  2431  1883  2436 0.89 -
+scaffold11.g4004.t1  -            905 91at3041             -            820         0 1017.9  12.9   1   3   8.4e-94   1.2e-90  303.4   0.2    47   216   106   282    99   288 0.94 -
+scaffold11.g4004.t1  -            905 91at3041             -            820         0 1017.9  12.9   2   3   7.1e-66   9.8e-63  211.0   0.0   317   437   347   463   338   467 0.98 -
+scaffold11.g4004.t1  -            905 91at3041             -            820         0 1017.9  12.9   3   3  1.2e-154  1.7e-151  504.6   5.7   472   820   479   895   469   895 0.85 -
+scaffold9.g3177.t1   -            181 91at3041             -            820   1.2e-15   55.3   1.7   1   1   1.6e-16   2.2e-13   47.8   1.7   591   702    13   120     8   125 0.64 -
+scaffold17.g595.t1   -           1066 91at3041             -            820   7.3e-08   29.5   0.0   1   4     0.076     1e+02   -0.7   0.0   546   626   315   395   278   418 0.75 -
+scaffold17.g595.t1   -           1066 91at3041             -            820   7.3e-08   29.5   0.0   2   4   0.00032      0.44    7.1   0.0    96   162   673   739   597   746 0.82 -
+scaffold17.g595.t1   -           1066 91at3041             -            820   7.3e-08   29.5   0.0   3   4    0.0053       7.3    3.1   0.0   217   242   747   772   740   798 0.75 -
+scaffold17.g595.t1   -           1066 91at3041             -            820   7.3e-08   29.5   0.0   4   4   2.3e-06    0.0032   14.2   0.0   374   468   970  1060   966  1065 0.84 -
+scaffold12.g8190.t1  -            761 91at3041             -            820     7e-06   23.0   0.4   1   2   9.2e-08   0.00013   18.8   0.1   226   291   100   167    96   195 0.81 -
+scaffold12.g8190.t1  -            761 91at3041             -            820     7e-06   23.0   0.4   2   2     0.011        16    2.0   0.0   393   449   318   373   314   380 0.89 -
+scaffold18.g2044.t1  -           1267 91at3041             -            820    0.0011   15.7   0.8   1   1   1.3e-06    0.0018   15.0   0.8   482   540   136   190    95   197 0.81 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/91at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/91at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/91at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:51:25 2022
+# [ok]

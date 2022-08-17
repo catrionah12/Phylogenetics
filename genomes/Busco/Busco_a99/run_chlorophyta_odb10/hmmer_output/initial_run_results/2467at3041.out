@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   1   6   4.5e-22   9.3e-19   66.2   1.9     1    62    42   106    42   142 0.77 -
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   2   6   1.4e-07   0.00029   18.3   0.5    57    87   144   174   126   188 0.80 -
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   3   6   4.9e-32     1e-28   99.1   0.5    79   151   214   286   182   334 0.84 -
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   4   6   4.2e-07   0.00087   16.7   0.1   164   209   340   405   322   407 0.67 -
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   5   6  1.1e-105  2.2e-102  342.3   4.3   240   526   402   681   397   692 0.89 -
+scaffold19.g1840.t1  -            793 2467at3041           -            598  2.8e-177  589.7  30.1   6   6   2.7e-19   5.7e-16   57.0   0.0   523   593   701   779   693   784 0.86 -
+scaffold1.g5683.t1   -            448 2467at3041           -            598   5.8e-18   63.6   0.5   1   2     5e-07     0.001   16.5   0.0   284   331    80   123    69   133 0.86 -
+scaffold1.g5683.t1   -            448 2467at3041           -            598   5.8e-18   63.6   0.5   2   2   9.8e-16     2e-12   45.3   0.2   388   524   197   330   190   369 0.84 -
+scaffold14.g1088.t1  -            448 2467at3041           -            598   9.2e-11   39.8   0.0   1   1   6.3e-14   1.3e-10   39.3   0.0   424   589   263   422   245   433 0.81 -
+scaffold4.g4646.t1   -            523 2467at3041           -            598   5.8e-06   23.9   4.6   1   2      0.29   6.1e+02   -2.6   0.0   333   367    48    82    45   101 0.88 -
+scaffold4.g4646.t1   -            523 2467at3041           -            598   5.8e-06   23.9   4.6   2   2   7.6e-08   0.00016   19.2   3.1   225   485   125   385    97   396 0.67 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/2467at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/2467at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/2467at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:45:55 2022
+# [ok]

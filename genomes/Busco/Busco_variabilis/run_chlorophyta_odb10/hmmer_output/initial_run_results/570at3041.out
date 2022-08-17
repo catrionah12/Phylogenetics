@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+XP_005848231.1       -           1018 570at3041            -            760         0 1188.1  25.0   1   4   1.2e-97   5.7e-94  314.5   5.1     1   222     5   263     5   270 0.91 -
+XP_005848231.1       -           1018 570at3041            -            760         0 1188.1  25.0   2   4  4.1e-261    2e-257  855.0   3.0   221   707   327   856   303   860 0.94 -
+XP_005848231.1       -           1018 570at3041            -            760         0 1188.1  25.0   3   4   2.2e-11   1.1e-07   29.2   0.0   699   749   908   967   899   972 0.77 -
+XP_005848231.1       -           1018 570at3041            -            760         0 1188.1  25.0   4   4     0.021     1e+02   -0.5   1.0   747   760  1003  1016   998  1016 0.85 -
+XP_005845802.1       -            855 570at3041            -            760     1e-07   29.3   6.3   1   2   1.5e-08   7.5e-05   19.8   4.6   290   581   364   692   321   709 0.72 -
+XP_005845802.1       -            855 570at3041            -            760     1e-07   29.3   6.3   2   2      0.26   1.3e+03   -4.1   0.0   641   667   766   792   764   800 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/570at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/570at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/570at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:06:04 2022
+# [ok]

@@ -1,0 +1,31 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3438260.1                 -            463 911at3041            -            365  3.1e-202  670.4  17.7   1   1  3.9e-201  4.4e-198  656.7  17.7     1   365    11   456    11   456 0.92 -
+KAI3436543.1                 -            445 911at3041            -            365   8.2e-16   57.0   5.7   1   2   2.3e-17   2.6e-14   52.1   1.2    14   140    61   183    49   194 0.77 -
+KAI3436543.1                 -            445 911at3041            -            365   8.2e-16   57.0   5.7   2   2    0.0015       1.7    6.6   0.2   195   225   266   297   213   349 0.77 -
+KAI3423607.1                 -            410 911at3041            -            365   1.1e-13   50.1   0.6   1   2   9.6e-17   1.1e-13   50.1   0.6    14   140    14   136     5   149 0.85 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3423607.1                 -            410 911at3041            -            365   1.1e-13   50.1   0.6   2   2     0.039        43    2.0   0.7   200   289   234   324   223   331 0.70 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3436710.1                 -            615 911at3041            -            365   8.4e-12   43.8   1.4   1   2   7.8e-15   8.7e-12   43.8   0.1    10   140     5   133     1   143 0.78 -
+KAI3436710.1                 -            615 911at3041            -            365   8.4e-12   43.8   1.4   2   2      0.87   9.8e+02   -2.4   0.1   200   222   251   273   249   305 0.80 -
+KAI3430251.1                 -            903 911at3041            -            365   9.3e-06   24.0   0.2   1   2     0.049        54    1.7   0.0     7    32   375   400   369   409 0.78 -
+KAI3430251.1                 -            903 911at3041            -            365   9.3e-06   24.0   0.2   2   2   1.8e-07   0.00021   19.5   0.1    77   127   430   479   414   594 0.84 -
+SIDB01000009.2322981.2330027 -           1207 911at3041            -            365    0.0036   15.4   4.3   1   3     0.021        23    2.9   0.0     9    33   347   371   341   377 0.79 -
+SIDB01000009.2322981.2330027 -           1207 911at3041            -            365    0.0036   15.4   4.3   2   3   1.4e-05     0.016   13.3   0.1    80   124   401   444   394   456 0.87 -
+SIDB01000009.2322981.2330027 -           1207 911at3041            -            365    0.0036   15.4   4.3   3   3       1.4   1.5e+03   -3.1   0.2   194   220   533   559   530   562 0.88 -
+KAI3426442.1                 -            665 911at3041            -            365    0.0039   15.3   0.0   1   1   7.1e-06     0.008   14.3   0.0    74   111   304   341   231   350 0.75 -
+KAI3426443.1                 -            689 911at3041            -            365    0.0042   15.2   0.0   1   1   7.5e-06    0.0084   14.2   0.0    74   111   328   365   255   374 0.75 -
+KAI3426909.1                 -            464 911at3041            -            365     0.027   12.6   0.2   1   2     7e-05     0.078   11.0   0.0    79   124    86   132    75   163 0.83 -
+KAI3426909.1                 -            464 911at3041            -            365     0.027   12.6   0.2   2   2      0.85   9.5e+02   -2.4   0.1   201   224   273   296   259   327 0.76 -
+KAI3426912.1                 -            464 911at3041            -            365     0.027   12.6   0.2   1   2     7e-05     0.078   11.0   0.0    79   124    86   132    75   163 0.83 -
+KAI3426912.1                 -            464 911at3041            -            365     0.027   12.6   0.2   2   2      0.85   9.5e+02   -2.4   0.1   201   224   273   296   259   327 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/911at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/911at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/911at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:41:17 2022
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3429690.1         -           1105 91at3041             -            820         0 1473.2   1.0   1   2  8.8e-178    2e-174  580.9   0.0     1   320   130   475   130   493 0.92 -
+KAI3429690.1         -           1105 91at3041             -            820         0 1473.2   1.0   2   2  4.3e-271  9.7e-268  889.6   0.6   317   820   507  1085   501  1085 0.90 -
+KAI3431689.1         -            527 91at3041             -            820   2.8e-08   31.3   0.1   1   3     0.021        48    0.8   0.1    97   136   147   186   132   213 0.79 -
+KAI3431689.1         -            527 91at3041             -            820   2.8e-08   31.3   0.1   2   3   0.00012      0.28    8.2   0.0   217   288   220   294   212   310 0.74 -
+KAI3431689.1         -            527 91at3041             -            820   2.8e-08   31.3   0.1   3   3   1.1e-07   0.00024   18.3   0.0   374   463   437   522   433   525 0.87 -
+KAI3437834.1         -            277 91at3041             -            820    0.0067   13.6   0.2   1   1   4.4e-06    0.0099   13.0   0.2   482   552   184   268   160   272 0.79 -
+KAI3428245.1         -            245 91at3041             -            820     0.013   12.6   7.2   1   1   1.2e-05     0.026   11.6   7.3   482   540   143   197   134   203 0.88 -
+KAI3423566.1         -             82 91at3041             -            820       5.5    3.9   9.4   1   2    0.0038       8.6    3.3   1.4   479   503     6    30     2    37 0.87 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3423566.1         -             82 91at3041             -            820       5.5    3.9   9.4   2   2    0.0011       2.5    5.0   1.9   477   499    41    63    33    68 0.79 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/91at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/91at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/91at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:41:35 2022
+# [ok]

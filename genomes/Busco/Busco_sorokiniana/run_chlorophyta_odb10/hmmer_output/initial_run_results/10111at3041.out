@@ -1,0 +1,40 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PRW59943.1           -            278 10111at3041          -            158   2.9e-69  231.3   1.6   1   1   8.2e-72   4.1e-69  230.8   1.6     4   154    39   212    31   223 0.87 -
+PRW56902.1           -           1088 10111at3041          -            158   4.2e-16   58.6   0.3   1   2   8.5e-19   4.2e-16   58.6   0.3    36   123    14   101     5   162 0.79 -
+PRW56902.1           -           1088 10111at3041          -            158   4.2e-16   58.6   0.3   2   2       8.5   4.2e+03   -3.2   7.8   110   153   167   212   160   220 0.52 -
+PRW56964.1           -            377 10111at3041          -            158   1.1e-08   34.5   0.1   1   2   2.2e-11   1.1e-08   34.5   0.1    37   119    43   123    35   141 0.87 -
+PRW56964.1           -            377 10111at3041          -            158   1.1e-08   34.5   0.1   2   2       3.3   1.6e+03   -1.9   3.4     9    16   341   348   319   374 0.43 -
+PRW58313.1           -            243 10111at3041          -            158   3.3e-07   29.6   0.5   1   2       1.3   6.3e+02   -0.5   0.3   112   133    53    73    28    96 0.56 -
+PRW58313.1           -            243 10111at3041          -            158   3.3e-07   29.6   0.5   2   2   6.7e-10   3.3e-07   29.6   0.5    34   103   102   172    99   234 0.72 -
+PRW44627.1           -            176 10111at3041          -            158   0.00055   19.2   0.4   1   2       5.4   2.7e+03   -2.5   0.1    31    44    24    37    22    38 0.84 -
+PRW44627.1           -            176 10111at3041          -            158   0.00055   19.2   0.4   2   2   1.1e-06   0.00055   19.2   0.4    58   148    64   153    54   171 0.58 -
+PRW57251.1           -            124 10111at3041          -            158     0.019   14.2   0.7   1   1   6.1e-05      0.03   13.5   0.7    23   103    10    91     2   121 0.79 -
+PRW32926.1           -            127 10111at3041          -            158     0.048   12.9   0.0   1   1   0.00011     0.055   12.7   0.0    31    91    23    83     8   100 0.84 Chlorella sorokiniana strain 1602 contig_18, whole genome shotgun sequence.
+PRW20373.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_24, whole genome shotgun sequence.
+PRW20423.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_24, whole genome shotgun sequence.
+PRW32875.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_18, whole genome shotgun sequence.
+PRW32953.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_18, whole genome shotgun sequence.
+PRW33066.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_18, whole genome shotgun sequence.
+PRW56948.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW56969.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW57021.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW57065.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW57122.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW57339.1           -            127 10111at3041          -            158     0.049   12.9   0.0   1   1   0.00012     0.058   12.6   0.0    32    91    24    83     9   100 0.85 Chlorella sorokiniana strain 1602 contig_7, whole genome shotgun sequence.
+PRW50900.1           -            133 10111at3041          -            158     0.054   12.7   0.0   1   1   0.00013     0.064   12.5   0.0    32    91    24    83     9   101 0.85 -
+PRW56454.1           -           1556 10111at3041          -            158      0.37   10.0   8.5   1   2   0.00088      0.43    9.8   0.0    33    97  1330  1395  1317  1444 0.86 -
+PRW56454.1           -           1556 10111at3041          -            158      0.37   10.0   8.5   2   2       2.6   1.3e+03   -1.5   6.6   106   154  1465  1516  1461  1533 0.47 -
+PRW59995.1           -            422 10111at3041          -            158         2    7.6   8.0   1   2       3.5   1.7e+03   -2.0   5.2   127   149   135   155   117   169 0.48 -
+PRW59995.1           -            422 10111at3041          -            158         2    7.6   8.0   2   2    0.0011      0.54    9.5   0.0    78   107   175   204   168   248 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10111at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_sorokiniana/run_chlorophyta_odb10/hmmer_output/initial_run_results/10111at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10111at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:28:00 2022
+# [ok]

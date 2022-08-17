@@ -1,0 +1,1 @@
+(a99_genome_proteins_scaffold25.g5138.t1:0.565588,(m_conductrix_genome_proteins_PSC67700.1:0.869449,(c_sorokiniana_genome_proteins_PRW60720.1:1.39757,(c_sorokiniana_genome_proteins_PRW20598.1:0.484035,c_sorokiniana_genome_proteins_PRW20743.1:0.560354)n3:0.0560354)n2:0.00622616)n1:0.501487)n0;

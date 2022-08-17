@@ -1,0 +1,32 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+XP_005843906.1       -            264 4047at3041           -            260  2.4e-141  468.6   0.1   1   1  5.3e-144  3.2e-141  468.2   0.1    15   260     1   262     1   262 0.94 -
+XP_005845841.1       -            350 4047at3041           -            260   3.5e-05   22.3   0.0   1   1   1.4e-07   8.4e-05   21.1   0.0    95   168   102   182    87   190 0.79 -
+XP_005848873.1       -            848 4047at3041           -            260   4.9e-05   21.9   0.0   1   1   1.5e-07   8.9e-05   21.0   0.0    98   199   160   261   149   272 0.89 -
+XP_005848677.1       -            355 4047at3041           -            260   0.00024   19.6   0.0   1   1   5.9e-07   0.00036   19.0   0.0    98   198   138   238   129   248 0.93 -
+XP_005844662.1       -            392 4047at3041           -            260   0.00037   19.0   0.3   1   2       3.3     2e+03   -3.1   0.1     7    32    83   108    76   120 0.74 -
+XP_005844662.1       -            392 4047at3041           -            260   0.00037   19.0   0.3   2   2   1.5e-06    0.0009   17.7   0.0    95   126   198   229   167   246 0.79 -
+XP_005846945.1       -            235 4047at3041           -            260   0.00056   18.4   0.0   1   1   1.3e-06   0.00081   17.9   0.0    88   153    33   100    19   109 0.79 -
+XP_005848502.1       -            369 4047at3041           -            260    0.0007   18.1   0.0   1   1   1.6e-06     0.001   17.6   0.0    69   136   188   253   149   299 0.79 -
+XP_005844663.1       -            215 4047at3041           -            260    0.0014   17.1   0.0   1   1   3.3e-06     0.002   16.6   0.0    90   136    42    89    32   107 0.78 -
+XP_005850516.1       -            252 4047at3041           -            260    0.0027   16.2   0.4   1   1   6.1e-06    0.0037   15.7   0.4    97   137    58    98    54   152 0.79 -
+XP_005850198.1       -            164 4047at3041           -            260    0.0054   15.2   0.1   1   1   1.1e-05    0.0066   14.9   0.1    75   151    42   121    31   158 0.64 -
+XP_005848509.1       -            487 4047at3041           -            260    0.0063   15.0   0.1   1   1   1.8e-05     0.011   14.1   0.1   100   138   343   381   320   402 0.84 -
+XP_005851343.1       -            342 4047at3041           -            260     0.012   14.1   0.2   1   2   0.00033       0.2   10.0   0.1    83   117   168   203   162   223 0.81 -
+XP_005851343.1       -            342 4047at3041           -            260     0.012   14.1   0.2   2   2      0.15        94    1.3   0.0   231   251   285   305   280   312 0.86 -
+XP_005846984.1       -            230 4047at3041           -            260     0.022   13.2   0.1   1   1   5.3e-05     0.033   12.6   0.1    96   140    40    84    10    99 0.80 -
+XP_005847372.1       -            313 4047at3041           -            260     0.025   13.0   0.0   1   2   9.3e-05     0.057   11.8   0.0    96   144    55   103    36   126 0.81 -
+XP_005847372.1       -            313 4047at3041           -            260     0.025   13.0   0.0   2   2       2.4   1.5e+03   -2.6   0.0    16    41   271   296   254   309 0.57 -
+XP_005845039.1       -            333 4047at3041           -            260      0.05   12.0   0.0   1   1   0.00012     0.074   11.5   0.0    84   173    98   193    89   217 0.71 -
+XP_005844423.1       -            494 4047at3041           -            260     0.055   11.9   0.0   1   1   0.00017       0.1   11.0   0.0    97   129   245   277   233   294 0.90 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4047at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/4047at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/4047at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:03:28 2022
+# [ok]

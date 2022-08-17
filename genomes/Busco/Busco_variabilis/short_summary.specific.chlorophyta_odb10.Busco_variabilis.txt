@@ -1,0 +1,17 @@
+# BUSCO version is: 5.3.2 
+# The lineage dataset is: chlorophyta_odb10 (Creation date: 2020-08-05, number of genomes: 16, number of BUSCOs: 1519)
+# Summarized benchmarking in BUSCO notation for file /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:92.9%[S:91.9%,D:1.0%],F:2.6%,M:4.5%,n:1519	   
+	1411	Complete BUSCOs (C)			   
+	1396	Complete and single-copy BUSCOs (S)	   
+	15	Complete and duplicated BUSCOs (D)	   
+	39	Fragmented BUSCOs (F)			   
+	69	Missing BUSCOs (M)			   
+	1519	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1

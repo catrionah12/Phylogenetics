@@ -1,0 +1,35 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PRW58470.1           -            496 3687at3041           -            300  8.9e-120  398.5   1.0   1   2   8.5e-13   6.8e-10   37.7   0.0     2    48    28    81    27   103 0.91 -
+PRW58470.1           -            496 3687at3041           -            300  8.9e-120  398.5   1.0   2   2  7.6e-111  6.1e-108  359.6   0.2    47   300   116   418   108   418 0.85 -
+PRW45227.1           -           1580 3687at3041           -            300   8.3e-54  181.9   0.0   1   2       0.6   4.8e+02   -1.2   0.0    23    53   407   437   403   445 0.84 -
+PRW45227.1           -           1580 3687at3041           -            300   8.3e-54  181.9   0.0   2   2   1.6e-55   1.2e-52  178.0   0.0    64   271   517   762   512   768 0.79 -
+PRW33008.1           -            494 3687at3041           -            300   3.1e-52  176.7   0.3   1   1     1e-53   8.3e-51  172.0   0.3    61   295   125   394   114   399 0.76 -
+PRW45049.1           -            921 3687at3041           -            300   1.5e-15   56.3   4.4   1   3   2.5e-05      0.02   13.2   0.0    62    99   430   467   423   489 0.91 -
+PRW45049.1           -            921 3687at3041           -            300   1.5e-15   56.3   4.4   2   3     0.085        68    1.6   0.2   109   150   529   574   506   582 0.65 -
+PRW45049.1           -            921 3687at3041           -            300   1.5e-15   56.3   4.4   3   3   2.3e-13   1.9e-10   39.5   2.1   124   280   574   739   559   748 0.76 -
+PRW58748.1           -            496 3687at3041           -            300   1.3e-13   49.9   0.1   1   3   1.1e-09   9.2e-07   27.4   0.0    64   102    33    71    12    85 0.87 -
+PRW58748.1           -            496 3687at3041           -            300   1.3e-13   49.9   0.1   2   3   0.00032      0.25    9.6   0.0   157   198   232   271   206   274 0.85 -
+PRW58748.1           -            496 3687at3041           -            300   1.3e-13   49.9   0.1   3   3   0.00043      0.34    9.1   0.0   229   250   405   426   402   463 0.68 -
+PRW45738.1           -            579 3687at3041           -            300   2.4e-10   39.2   1.0   1   2   7.7e-07   0.00062   18.1   0.0    67    98   270   301   263   325 0.90 -
+PRW45738.1           -            579 3687at3041           -            300   2.4e-10   39.2   1.0   2   2     3e-07   0.00024   19.5   0.3   202   248   516   564   467   571 0.69 -
+PRW56320.1           -            371 3687at3041           -            300   4.6e-07   28.4   0.0   1   2   0.00011     0.087   11.1   0.0    78   100   108   130   104   143 0.86 -
+PRW56320.1           -            371 3687at3041           -            300   4.6e-07   28.4   0.0   2   2     7e-06    0.0056   15.0   0.0   163   260   260   366   246   370 0.70 -
+PRW58134.1           -            446 3687at3041           -            300   1.4e-06   26.8   0.3   1   1   1.4e-07   0.00011   20.6   0.3    74   259     9   188     4   200 0.63 -
+PRW50904.1           -           3093 3687at3041           -            300   0.00086   17.7   0.1   1   1   1.9e-06    0.0015   16.9   0.1   153   274  1841  1963  1827  1974 0.78 -
+PRW50905.1           -           3094 3687at3041           -            300   0.00086   17.7   0.1   1   1   1.9e-06    0.0015   16.9   0.1   153   274  1842  1964  1828  1975 0.78 -
+PRW56354.1           -            655 3687at3041           -            300    0.0027   16.1   0.0   1   1   5.5e-06    0.0044   15.3   0.0   185   252   314   386   304   406 0.76 -
+PRW60895.1           -            444 3687at3041           -            300    0.0078   14.5   0.0   1   2      0.14   1.1e+02    0.9   0.0   162   199   119   156   104   159 0.75 -
+PRW60895.1           -            444 3687at3041           -            300    0.0078   14.5   0.0   2   2    0.0001     0.082   11.2   0.0   228   248   296   316   292   358 0.88 -
+PRW56353.1           -            644 3687at3041           -            300      0.05   11.9   0.0   1   1   0.00011     0.085   11.1   0.0   186   252   315   375   304   395 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3687at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_sorokiniana/run_chlorophyta_odb10/hmmer_output/initial_run_results/3687at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/3687at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:34:26 2022
+# [ok]

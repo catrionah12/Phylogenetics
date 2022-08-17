@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   1   6   2.5e-74   1.3e-70  237.6   0.0     6   166    56   245    51   287 0.82 -
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   2   6  4.8e-153  2.4e-149  497.8   0.0   183   476   346   681   334   710 0.90 -
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   3   6      0.13   6.5e+02   -2.7   0.0   444   493   701   749   691   751 0.85 -
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   4   6     0.033   1.7e+02   -0.8   0.0   506   524   817   835   805   846 0.82 -
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   5   6   3.2e-13   1.6e-09   35.6   0.0   523   563   907   954   889   968 0.86 -
+PSC69053.1           -           1390 697at3041            -            697    1e-280  932.0   1.0   6   6   5.8e-49   2.9e-45  153.8   0.1   567   697  1071  1228  1044  1228 0.77 -
+PSC75824.1           -           2701 697at3041            -            697     0.044   11.1   0.0   1   1   1.8e-05     0.089   10.0   0.0   225   337   879   994   856  1004 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/697at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/697at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/697at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:23:05 2022
+# [ok]

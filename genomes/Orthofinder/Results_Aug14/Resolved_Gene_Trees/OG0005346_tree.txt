@@ -1,0 +1,1 @@
+(c_sorokiniana_genome_proteins_PRW33932.1:0.120314,((c_sorokiniana_genome_proteins_PRW33796.1:0.663595,c_sorokiniana_genome_proteins_PRW33911.1:0.944581)n2:0.147887,(c_sorokiniana_genome_proteins_PRW33859.1:5e-07,c_sorokiniana_genome_proteins_PRW33860.1:5e-07)n3:0.239772)n1:0.120314)n0;

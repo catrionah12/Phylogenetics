@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3432440.1         -            721 763at3041            -            594  8.2e-282  935.5   8.0   1   1  1.1e-282  1.1e-279  928.4   8.0     1   594    10   713    10   713 0.88 -
+KAI3426029.1         -            288 763at3041            -            594   5.9e-46  156.6   0.0   1   1   6.9e-49     7e-46  156.3   0.0   219   483     7   285     3   287 0.90 -
+KAI3428089.1         -            876 763at3041            -            594   7.3e-43  146.4   4.0   1   1   1.5e-44   1.5e-41  142.0   3.9    14   146    40   193    34   209 0.85 -
+KAI3427009.1         -            340 763at3041            -            594     2e-32  111.9   3.7   1   1   1.3e-34   1.4e-31  109.1   3.6    20   151   126   274    92   301 0.74 -
+KAI3424465.1         -            301 763at3041            -            594   2.6e-29  101.6   0.4   1   1   3.3e-32   3.4e-29  101.2   0.4    45   164   129   251   104   263 0.87 -
+KAI3430648.1         -            280 763at3041            -            594   1.2e-16   59.7   2.7   1   2     0.038        38    2.0   0.0    23    46    45    69    38    79 0.83 -
+KAI3430648.1         -            280 763at3041            -            594   1.2e-16   59.7   2.7   2   2   7.5e-19   7.6e-16   57.1   1.4    46   153   104   213    71   231 0.87 -
+KAI3428467.1         -            533 763at3041            -            594   8.3e-16   57.0   2.4   1   1   1.5e-18   1.6e-15   56.1   2.4    49   141   109   202    98   232 0.87 -
+KAI3426047.1         -            342 763at3041            -            594   1.8e-12   46.0   0.1   1   1   2.3e-15   2.3e-12   45.6   0.1    32   148   148   270   143   314 0.79 -
+KAI3436495.1         -            369 763at3041            -            594   3.5e-10   38.4   1.7   1   2    0.0098       9.9    3.9   0.0    16    49    42    75    27    88 0.76 -
+KAI3436495.1         -            369 763at3041            -            594   3.5e-10   38.4   1.7   2   2   8.8e-12   8.9e-09   33.8   0.5    52   110   103   161    88   200 0.82 -
+KAI3425765.1         -            274 763at3041            -            594   1.8e-09   36.1   0.5   1   2       1.2   1.3e+03   -3.0   0.0    13    46    40    76    31    78 0.75 -
+KAI3425765.1         -            274 763at3041            -            594   1.8e-09   36.1   0.5   2   2   3.6e-12   3.6e-09   35.1   0.5    53   149   104   200    94   223 0.82 -
+KAI3438408.1         -            698 763at3041            -            594    0.0024   15.9   0.4   1   2   4.9e-06     0.005   14.8   0.1    18    87   391   463   379   514 0.81 -
+KAI3438408.1         -            698 763at3041            -            594    0.0024   15.9   0.4   2   2       1.1   1.1e+03   -2.9   0.0   127   170   549   595   532   597 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/763at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/763at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/763at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:41:55 2022
+# [ok]

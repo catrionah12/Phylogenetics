@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC75158.1           -            369 5635at3041           -            184   1.1e-55  187.8  10.4   1   2   3.2e-07   0.00065   19.0   0.3    17    42   146   171   138   178 0.85 -
+PSC75158.1           -            369 5635at3041           -            184   1.1e-55  187.8  10.4   2   2   9.4e-53   1.9e-49  167.5   4.7    45   184   197   367   178   367 0.85 -
+PSC71218.1           -            260 5635at3041           -            184   5.6e-22   77.9   1.0   1   1   5.3e-25   1.1e-21   77.0   1.0    83   177   146   245   132   258 0.86 -
+PSC72362.1           -            311 5635at3041           -            184   1.7e-15   56.8   0.9   1   2      0.39   7.8e+02   -0.8   0.3    46   180   137   159   124   183 0.61 -
+PSC72362.1           -            311 5635at3041           -            184   1.7e-15   56.8   0.9   2   2   8.4e-19   1.7e-15   56.8   0.9    88   172   201   286   190   292 0.88 -
+PSC67318.1           -            294 5635at3041           -            184    0.0081   15.5   0.1   1   2       0.7   1.4e+03   -1.6   1.0   120   169     4    53     1    60 0.57 -
+PSC67318.1           -            294 5635at3041           -            184    0.0081   15.5   0.1   2   2     4e-06    0.0081   15.5   0.1    85   146   166   229   162   251 0.74 -
+PSC75400.1           -            478 5635at3041           -            184     0.016   14.6   0.0   1   1   1.2e-05     0.025   13.9   0.0    85   181   370   463   364   466 0.86 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5635at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/5635at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5635at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:20:28 2022
+# [ok]

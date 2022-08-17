@@ -1,0 +1,224 @@
+	Algal (Endosymbiont) Species	Algal (Endosymbiont) Strain	Host Species	Host Strain	Taxonomic Designation of the Host	Origin	Database	rbcL	18srRNA	28S rRNA	3_rpl36-5_infA	ITS1-5.8S-ITS2	Ref
+													
+1	Chl_vulgaris_P_bursaria	CVG-SHT-56	Paramecium bursaria	SHT-56	R1	Tajikistan	GenBank	nd	nd	KX639563	KX639603	KX639535	Greczek-Stachura et al.2021
+2	Chl_vulgaris_P_bursaria	CVG-TR54-4	Paramecium bursaria	TR54-4	R2	"Tver, Russia"	GenBank	nd	nd	KX639564	KX639604	KX639536	Greczek-Stachura et al.2021
+3	Chl_vulgaris_P_bursaria	CVG-RA2-1	Paramecium bursaria	RA2-1	R2	"Altai Forelands, Russia"	GenBank	nd	nd	KX639562	KX639602	nd	Greczek-Stachura et al.2021
+4	Chl_vulgaris_P_bursaria	CVG-MitR	Paramecium bursaria	MitR	R3	Japan	GenBank	nd	nd	KX639561	KX639601	KX639534	Greczek-Stachura et al.2021
+5	Chl_vulgaris_P_bursaria	CVG-JR-16	Paramecium bursaria	JR-16	R3	Japan	GenBank	nd	nd	KX639560	KX639600	nd	Greczek-Stachura et al.2021
+6	Chl_vulgaris_P_bursaria	CVG-HKV19-12	Paramecium bursaria	HKV19-12	R3	"Khabarovsk, Russia"	GenBank	nd	nd	KM203671	KM203663	nd	"Zagata et al., 2016"
+7	Chl_vulgaris_P_bursaria	CVG-Bya129-5	Paramecium bursaria	Bya129-5	R2	"Yaroslavl, Russia"	GenBank	nd	nd	KX639559	KX639598	nd	Greczek-Stachura et al.2021
+8	Chl_vulgaris_P_bursaria	CVG-BBR180-10	Paramecium bursaria	BBR180-10	R2	"Lake Baikal, Russia"	GenBank	nd	nd	KX639557	KX639596	KX639531	Greczek-Stachura et al.2021
+9	Chl_vulgaris_P_bursaria	CVG-BBR178-9	Paramecium bursaria	BBR178-9	R2	"Lake Baikal, Russia"	GenBank	nd	nd	KX639556	KX639595	KX639530	Greczek-Stachura et al.2021
+10	Chl_vulgaris_P_bursaria	CVG-AZ21-3	Paramecium bursaria	AZ21-3	R2	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KX639555	KX639594	nd	Greczek-Stachura et al.2021
+11	Chl_vulgaris_P_bursaria	CVG-AZ20-1	Paramecium bursaria	AZ20-1	R5	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KX639554	KX639593	nd	Greczek-Stachura et al.2021
+12	Chl_vulgaris_P_bursaria	CVG-AZ10-1	Paramecium bursaria	AZ10-1	R5	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KM203670	KM203662	KX639528	Greczek-Stachura et al.2021
+13	Chl_vulgaris_P_bursaria	CVG-Yad1-g	Paramecium bursaria	Yad1-g	R3	"Yamaguchi, Japan"	GenBank	nd	nd	KX639565	KX639605	nd	Greczek-Stachura et al.2021
+14	Chl_vulgaris_P_bursaria	CVG-Ard7	Paramecium bursaria	Ard7	R4	"Ardmore, USA"	GenBank	nd	nd	KX639552	KX639591	KX639526	Greczek-Stachura et al.2021
+15	Chl_vulgaris_P_bursaria	CVG-AZ7-14	Paramecium bursaria	AZ7-14	R2	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KX639553	KX639592	KX639527	Greczek-Stachura et al.2021
+16	Chl_vulgaris_P_bursaria	CVG-AB2-51	Paramecium bursaria	AB2-51	R4	"Boston, USA"	GenBank	nd	nd	KM203673	KM203661	nd	"Zagata et al., 2016"
+17	Chl_vulgaris_P_bursaria	CVG-GB15-2	Paramecium bursaria	GB15-2	R2	"Lake Loch Linnhe, Scotland"	GenBank	nd	nd	KX639551	KX639599	KX639525	Greczek-Stachura et al.2021
+18	Chl_vulgaris_P_bursaria	CVG-KZ-126	Paramecium bursaria	KZ-126	R2	"Kaliningrad, Russia"	GenBank	nd	nd	KM203672	KM203660	KX639533	Greczek-Stachura et al.2021
+19	Chl_vulgaris_P_bursaria	CVG-BL15-3	Paramecium bursaria	BL15-3	R2	"Lake Baikal, Russia"	GenBank	nd	nd	KX639558	KX639597	KX639532	Greczek-Stachura et al.2021
+20	Chl_vulgaris_P_bursaria	CVG-B4-1	Paramecium bursaria	B4-1	R1	"Volgograd, Russia"	GenBank	nd	nd	KX639546	KX639586	KX639529	Greczek-Stachura et al.2021
+21	Chl_variabilis_P_bursaria	CVA-AZ8-2	Paramecium bursaria	AZ8-2	R2	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KX639544	KX639584	KX639520	Greczek-Stachura et al.2021
+22	Chl_variabilis_P_bursaria	CVA-IP	Paramecium bursaria	IP	R3	"Pisa, Italy"	GenBank	nd	nd	KX639549	KX639589	nd	Greczek-Stachura et al.2021
+23	Chl_variabilis_P_bursaria	CVA-Ard10-3	Paramecium bursaria	Ard10-3	R4	"Ardmore, USA"	GenBank	nd	nd	KM203667	KM203658	nd	"Zagata et al., 2016"
+24	Chl_variabilis_P_bursaria	CVA-AZ20-4	Paramecium bursaria	AZ20-4	R2	"Astrakhan Nature Reserve, Russia"	GenBank	nd	nd	KX639545	KX639585	KX639521	Greczek-Stachura et al.2021
+25	Chl_variabilis_P_bursaria	CVA-Wien4a-12	Paramecium bursaria	Wien4a-12	R1	"Wien, Austria"	GenBank	nd	nd	KX639550	KX639590	nd	Greczek-Stachura et al.2021
+26	Chl_variabilis_P_bursaria	CVA-B5-7	Paramecium bursaria	B5-7	R5	"Botanical Garden in St. Petersburg, Russia"	GenBank	nd	nd	KM203669	KM203659	KX639522	Greczek-Stachura et al.2021
+27	Chl_variabilis_P_bursaria	CVA-KD64	Paramecium bursaria	KD64	R2	"Kamchatka, Russia"	GenBank	nd	nd	KM203668	KM203657	nd	"Zagata et al., 2016"
+28	Chl_variabilis_P_bursaria	CVA-HZ85-1	Paramecium bursaria	HZ85-1	R3	"Khanka Nature Reserve, Russia"	GenBank	nd	nd	KX639548	KX639588	KX639524	Greczek-Stachura et al.2021
+29	Chl_variabilis_P_bursaria	CVA-GT-2	Paramecium bursaria	GT-2	R2	"Tübingen, Germany"	GenBank	nd	nd	KX639547	KX639587	KX639523	Greczek-Stachura et al.2021
+30	Chl_sorokiniana_P_bursaria	CS-BBR51-1	Paramecium bursaria	BBR51-1	R2	"Lake Baikal, Russia"	GenBank	nd	nd	KX639542	KX639582	nd	Greczek-Stachura et al.2021
+31	Chl_sorokiniana_P_bursaria	CS-Cs2	Paramecium bursaria	Cs2	R3	"Shanghai, China"	GenBank	nd	nd	KX639543	KX639583	nd	Greczek-Stachura et al.2021
+32	Chl_sorokiniana_P_bursaria	CS-11 231-2	Paramecium bursaria	11 231-2	R2	"Kamchatka, Russia"	GenBank	nd	nd	KX639540	KX639580	nd	Greczek-Stachura et al.2021
+33	Chl_sorokiniana_P_bursaria	CS-11 35-2	Paramecium bursaria	11 35-2	R2	"Kamchatka, Russia"	GenBank	nd	nd	KX639541	KX639581	nd	Greczek-Stachura et al.2021
+34	M_conductrix_P_bursaria	MC-11 42-2	Paramecium bursaria	11 42-2	R2	"Kamchatka, Russia"	GenBank	nd	nd	KX639567	KX639574	nd	Greczek-Stachura et al.2021
+35	M_conductrix_P_bursaria	MC-RN88-4	Paramecium bursaria	RN88-4	R2	"Tver, Russia"	GenBank	nd	nd	KX639570	KX639577	nd	Greczek-Stachura et al.2021
+36	M_conductrix_P_bursaria	MC-4 231-1	Paramecium bursaria	4 231-1	R2	"Kamchatka, Russia"	GenBank	nd	nd	KX639566	KX639573	KX639537	Greczek-Stachura et al.2021
+37	M_conductrix_P_bursaria	MC-MS-1	Paramecium bursaria	MS-1	R1	"St. Petersburg, Russia"	GenBank	nd	nd	KM203675	KM203666	KX639538	Greczek-Stachura et al.2021
+38	M_conductrix_P_bursaria	MC-GB7-2	Paramecium bursaria	GB7-2	R2	"Lake Loch Linnhe, Scotland"	GenBank	nd	nd	KX639568	KX639575	nd	Greczek-Stachura et al.2021
+39	M_conductrix_P_bursaria	MC-VM-14	Paramecium bursaria	VM-14	R2	"Valaam, Russia"	GenBank	nd	nd	KM203674	KM203664	nd	"Zagata et al., 2016"
+40	M_conductrix_P_bursaria	MC-PMP1-3-1	Paramecium bursaria	PMP1-3-1	R1	"St. Petersburg, Russia"	GenBank	nd	nd	KX639569	KX639576	nd	Greczek-Stachura et al.2021
+41	M_conductrix_P_bursaria	MC-TR54-1	Paramecium bursaria	TR54-1	R1	"Tver, Russia"	GenBank	nd	nd	KX639572	KX639579	nd	Greczek-Stachura et al.2021
+42	M_conductrix_P_bursaria	MC-SRB9-1	Paramecium bursaria	SRB9-1	R2	"River Danube, Serbia"	GenBank	nd	nd	KX639571	KX639578	KX639539	Greczek-Stachura et al.2021
+43	M_conductrix_P_bursaria	MC-TOS1-7	Paramecium bursaria	TOS1-7	R2	"Togliatti, Russia"	GenBank	nd	nd	KM203676	KM203665	nd	"Zagata et al., 2016"
+44	M_inermum_P_bursaria	NLP-F014	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	KF597304.1	nd	nd	Unpublished data
+45	Chl_sorokiniana_P_bursaria	UTEX 1665	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	KJ676113.1	nd	nd	"Rosenburg et al., 2014"
+46	Micractinium sp.	KNUA029	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	KM243321.1	nd	nd	"Hong et al., 2015"
+47	M_reisseri_conductrix_P_bursaria	"SW1-ZK, (SW1)"	Paramecium bursaria	nd	nd	"Black Forest, Germany"	GenBank	nd	nd	AB437256.1	nd	AB437244.1	"Hoshina et al., 2009"
+48	Micractinium_sp_P_bursaria	MCWWW15	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP204593.1	"Park et al., 2015"
+49	Micractinium_sp_P_bursaria	MCWWW4	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP204582.1	"Park et al., 2015"
+50	Micractinium_sp_P_bursaria	MCWWW5	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP204583.1	"Park et al., 2015"
+51	Micractinium_sp_P_bursaria	MCWWW10	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP204588.1	"Park et al., 2015"
+52	Micractinium_sp_P_bursaria	MCWWW11	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP204589.1	"Park et al., 2015"
+53	Micractinium_sp_P_bursaria	KNUA032	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KM243324.1	"Hong et al., 2015"
+54	M_reisseri_conductrix_P_bursaria	EdL_Cl1_MAF	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KF887345.1	Unpublished data
+55	M_pusillum_P_bursaria	SAG 13.81	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	FM205866.1	"Luo et al., 2007"
+56	Chlorella_sp_P_bursaria	CB4	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	JQ710683.1	Unpublished data
+57	Chlorella_sp_P_bursaria	IFRPD	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	AB260898.1	"Hoshina et al., 2008"
+58	Chl_sorokiniana_P_bursaria	KLL-G018	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KP726221.1	"Kaplan-Levy et al., 2016"
+59	Chl_sorokiniana_P_bursaria	KU219	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KM061463.1	Unpublished data
+60	Chl_variabilis_P_bursaria	CCAP 211/84	Paramecium bursaria	nd	R1	nd	GenBank	nd	nd	nd	nd	FN298923.1	"Proschold et al., 2011"
+61	Chl_variabilis_P_bursaria	SAG 211-6	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	FM205849.1	"Luo et al., 2010"
+62	Chl_variabilis_P_bursaria	EdL_Cl2_3NB	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	KF887350.1	Unpublished data
+63	Chl_vulgaris_P_bursaria	DRL3	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	JX139000.1	Unpublished data
+64	Coccomyxa_chodatii_P_bursaria	SAG: 216-2	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	HG972989.1	nd	nd	"Darienko et al., 2015"
+65	Stigeoclonium_tenue_P_bursaria	CCAP 477/11A	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	HF920680.1	nd	nd	"Caisova et al., 2013"
+66	Stigeoclonium_variabile_P_bursaria	CCAP 477/13	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	HF920679.1	nd	nd	"Caisova et al., 2013"
+67	Parachlorella_kessleri_P_bursaria	SAG: 211-11g	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	X65099.1	nd	"Ustinova et al., 2001"
+68	Actinastrum_hantzschii_P_bursaria	SAG 2015	Paramecium bursaria	nd	nd	nd	GenBank	nd	nd	nd	nd	FM205841.1	"Kaplan-Levy et al., 2016"
+69	Chl_variabilis_P_bursaria	JPN symbiont	Paramecium bursaria	JPN	R3	"Yamaguchi, Japan"	GenBank	nd	nd	nd	nd	MT460236	"Flemming et al., 2020"
+70	Chl_variabilis_P_bursaria	Tue2015 symbiont	Paramecium bursaria	Tue2015	R3	"Tübingen, Germany"	GenBank	nd	nd	nd	nd	MT460235	"Flemming et al., 2020"
+71	M_conductrix_P_bursaria	Frieds symbiont	Paramecium bursaria	Frieds	R2	"Saxony-Anhalt, Germany"	GenBank	nd	nd	nd	nd	MT460238	"Flemming et al., 2020"
+72	M_conductrix_P_bursaria	Old-Pf symbiont	Paramecium bursaria	Old-Pf	R1	"Oldenburg, Germany"	GenBank	nd	nd	nd	nd	MT460234	"Flemming et al., 2020"
+73	M_conductrix_P_bursaria	Scot symbiont	Paramecium bursaria	Scot	R1	"Loch Katrine, Scotland"	GenBank	nd	nd	nd	nd	MT460237	"Flemming et al., 2020"
+74	Chlorella_sp_hydra	M10_symbiont	Hydra viridissima	M10	nd	"Danube, Germany"	DDBJ	AB713410	AB713420	nd	nd	nd	"Kawaida et al., 2013"
+75	Chlorella_sp_hydra	M9_symbiont	Hydra viridissima	M9	nd	Israel	DDBJ	AB713409	AB713419	nd	nd	nd	"Kawaida et al., 2013"
+76	Chlorella_sp_hydra	J8_symbiont	Hydra viridissima	J8	nd	Unknown	DDBJ	AB713408	AB713416	nd	nd	nd	"Kawaida et al., 2013"
+77	Chlorella_sp_hydra	K10_symbiont	Hydra viridissima	K10	nd	Switzerland	DDBJ	AB713411	AB713415	nd	nd	nd	"Kawaida et al., 2013"
+78	Chlorella_sp_hydra	L9_symbiont	Hydra viridissima	L9	nd	"California, USA"	DDBJ	AB713412	AB713417	nd	nd	nd	"Kawaida et al., 2013"
+79	Chlorella_sp_hydra	M8_symbiont	Hydra viridissima	M8	nd	"Pennsylvania, USA"	DDBJ	AB713413	AB713418	nd	nd	nd	"Kawaida et al., 2013"
+80	Meyerella_planktonica	Itas_2/24 S-12w	Free-living	nd	nd	"Lake Itasca, Minnesota, USA"		nd	nd	nd	nd	AY543044	"Heeg and Wolf, 2015"
+81	Chl_vulgaris	CCAP_211/81	Free-living	nd	nd	"Sachsen, Germany"		nd	nd	nd	nd	FM205854	"Heeg and Wolf, 2015"
+82	Chloroidium_saccharophilum	SAG_211-9a	Free-living	nd	nd	Germany		nd	nd	nd	nd	FM946000	"Heeg and Wolf, 2015"
+83	Actinastrum_hantzchii	CCAP_200/3	Free-living	nd	nd	"Sachsen, Germany"		nd	nd	nd	nd	FM205884	"Heeg and Wolf, 2015"
+84	Hindakia_tetrachotoma	CCAP_222/54	Free-living	nd	nd	"Brandenburg, Germany"		nd	nd	nd	nd	GQ487238	"Heeg and Wolf, 2015"
+85	Hegewaldia_parvula	CCAP 283/1	Free-living	nd	nd	"California, USA"		nd	nd	nd	nd	FM205842	"Heeg and Wolf, 2015"
+86	Chl_rotunda	KR_2007/5	Free-living	nd	nd	"Okawango, Angola"		nd	nd	nd	nd	HQ111433	"Heeg and Wolf, 2015"
+87	Chl_heliozoae_A_turfacea	SAG_3.83	Acanthocystis turfacea	nd	nd	"New foundland, Canada"		nd	nd	nd	nd	FM205850	"Heeg and Wolf, 2015"
+88	Chl_sorokiniana	CCTCCM209220	Free-living	nd	nd	"Inner Mongolia Province, China"		nd	nd	nd	nd	KJ676111	"Heeg and Wolf, 2015"
+89	M_pusillum	KMMCC_1710	Free-living	nd	nd	"Busan, South Korea"		nd	nd	nd	nd	JQ315785	"Heeg and Wolf, 2015"
+90	Chl_pyrenoidosa	NIREMACC02	Free-living	nd	nd	"Punjab, India"		nd	nd	nd	nd	KJ507207	"Heeg and Wolf, 2015"
+91	M_reisseri_conductrix_p_bursaria	Pbi	P.bursaria	nd	nd	"Goettingen, Germany"		nd	nd	nd	nd	AB506071	"Heeg and Wolf, 2015"
+92	M_tetrahymenae_t_utriclariae	SAG_2587	Tetrahymena utriculariae	nd	nd	"Okavango Delta, Botswana"	GenBank	nd	nd	nd	nd	MT359915	"Proschold et al., 2020"
+93	Chl_variabilis_S_pyriformis	Hachimantai_1204	Stentor pyriformis	nd	nd	"Hachimantai, Japan"		nd	nd	nd	nd	LC533388	"Hoshina et al., 2021"
+94	Chl_variabilis_S_pyriformis	Jodo-daira_1436	Stentor pyriformis	nd	nd	"Jodo-daira, Japan"		nd	nd	nd	nd	LC533389	"Hoshina et al., 2021"
+95	Chl_variabilis_S_pyriformis	Toriko-daira_1256	Stentor pyriformis	nd	nd	"Toriko-daira, Japan"		nd	nd	nd	nd	LC533390	"Hoshina et al., 2021"
+96	Chl_variabilis_S_pyriformis	nd	Stentor pyriformis	nd	nd	"Toriko-daira, Japan"		nd	nd	nd	nd	LC533391	"Hoshina et al., 2021"
+	Parachlorella beijerinckii	SAG 2046	Free-living	nd	nd	"Mecklenberg, Germany"		nd	AY323841	nd	nd	FM205845	"Rajevic et al., 2015"
+	‘Chlorella’ ellipsoidea	nd	Free-living	nd	nd			EU038287	X63520	nd	nd	EU038292	"Rajevic et al., 2015"
+	C. kessleri	nd	Free-living	nd	nd			AB260912	X56105	nd	nd	FR865655	"Rajevic et al., 2015"
+	C. lobophora	nd	Free-living	nd	nd			nd	X63504	nd	nd		"Rajevic et al., 2015"
+	C. luteoviridis	nd	Free-living	nd	nd			nd	AB006045	nd	nd	FR865658	"Rajevic et al., 2015"
+	C. minutissima	nd	Free-living	nd	nd			KC810312	AB006046	nd	nd		"Rajevic et al., 2015"
+	C. mirabilis	nd	Free-living	nd	nd			nd	X74000	nd	nd		"Rajevic et al., 2015"
+	‘C.’ saccharophila	nd	Free-living	nd	nd			AM260446	AB058310	nd	nd	FM946010	"Rajevic et al., 2015"
+	C. sorokiniana	nd	Free-living	nd	nd			JQ415922	X73993	nd	nd	KC416207	"Rajevic et al., 2015"
+	C. sphaerica	nd	Free-living	nd	nd			nd	AJ416105	nd	nd		"Rajevic et al., 2015"
+	C. vulgaris	LU18	Free-living	nd	nd	"Midwest, USA"		JQ415915	AB080308	nd	nd	AY591512	"Rajevic et al., 2015"
+	C. zofingiensis/M. zofingiensis	nd	Free-living	nd	nd			HQ902940	X74004	nd	nd	HQ902929	"Rajevic et al., 2015"
+	C. sp.	nd	Free-living	nd	nd			KC810316	AB713411	nd	nd	FM205844	"Rajevic et al., 2015"
+	Asterochloris sp.	nd	Free-living	nd	nd			JN573807	nd	nd	nd	AM906012	"Rajevic et al., 2015"
+	Auxenochlorella protothecoides	nd	Free-living	nd	nd			EU038285	nd	nd	nd	FN298931	"Rajevic et al., 2015"
+	Auxenochlorella sp.	nd	Free-living	nd	nd			AM260439	nd	nd	nd	FN298932	"Rajevic et al., 2015"
+	Chloroidium ellipsoideum	nd	Free-living	nd	nd			nd	nd	nd	nd	FR865666	"Rajevic et al., 2015"
+	C. saccharophilum	nd	Free-living	nd	nd			nd	nd	nd	nd	FR865677	"Rajevic et al., 2015"
+	Choricystis minor	nd	Free-living	nd	nd			DQ219819	nd	nd	nd	FN870434	"Rajevic et al., 2015"
+	Closteriopsis acicularis	nd	Free-living	nd	nd			EF113433	nd	nd	nd	HM066009	"Rajevic et al., 2015"
+	Coccomyxa glaronensis	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	Coccomyxa sp.	nd	Free-living	nd	nd			HQ335208	nd	nd	nd	FN298928	"Rajevic et al., 2015"
+	Dictyochloropsis reticulata	nd	Free-living	nd	nd			EF113435	nd	nd	nd	FJ792803	"Rajevic et al., 2015"
+	Elliptochloris bilobata	nd	Free-living	nd	nd			FJ217379	nd	nd	nd		"Rajevic et al., 2015"
+	E. subsphaerica	nd	Free-living	nd	nd			FJ217382	nd	nd	nd	FJ648518	"Rajevic et al., 2015"
+	Helicosporidium sp.	nd	Free-living	nd	nd			nd	nd	nd	nd	AF317895	"Rajevic et al., 2015"
+	Heterochlorella luteoviridis	nd	Free-living	nd	nd			HE984580	nd	nd	nd		"Rajevic et al., 2015"
+	Heveochlorella hainangensis	nd	Free-living	nd	nd			nd	nd	nd	nd	JX290372	"Rajevic et al., 2015"
+	H. roystonensis	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	Kalinella bambusicola	nd	Free-living	nd	nd			HE984581	nd	nd	nd		"Rajevic et al., 2015"
+	Koliella longiseta	nd	Free-living	nd	nd			nd	nd	nd	nd	AJ431677	"Rajevic et al., 2015"
+	K. sempervirens	nd	Free-living	nd	nd			nd	nd	nd	nd	AJ431673	"Rajevic et al., 2015"
+	K. spiculiformis	nd	Free-living	nd	nd			nd	nd	nd	nd	AJ431670	"Rajevic et al., 2015"
+	Leptosira terrestris	nd	Free-living	nd	nd			AM260448	nd	nd	nd		"Rajevic et al., 2015"
+	Microthamnion kuetzingianum	nd	Free-living	nd	nd			EF589152	nd	nd	nd		"Rajevic et al., 2015"
+	Myrmecia biatorellae	nd	Free-living	nd	nd			AF499685	nd	nd	nd		"Rajevic et al., 2015"
+	Nannochloris sp.	nd	Free-living	nd	nd			nd	nd	nd	nd	JQ922411	"Rajevic et al., 2015"
+	Neochloris aquatica	nd	Free-living	nd	nd			EF113456	nd	nd	nd	AY577764	"Rajevic et al., 2015"
+	Phyllosiphon arisari	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	Picochlorum (Nannochloris) eucaryotum	nd	Free-living	nd	nd			EF113454	nd	nd	nd		"Rajevic et al., 2015"
+	Prototheca blaschkeae	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	P. wickehamii	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	P. zopfi var. hydrocarbonea	nd	Free-living	nd	nd			nd	nd	nd	nd	FR848898	"Rajevic et al., 2015"
+	Raphidonema longiseta	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	Stichococcus bacillaris	nd	Free-living	nd	nd			AM260442	nd	nd	nd	AJ431678	"Rajevic et al., 2015"
+	Trebouxia asymmetrica	nd	Free-living	nd	nd			nd	nd	nd	nd	AJ249565	"Rajevic et al., 2015"
+	T. impressa	nd	Free-living	nd	nd			nd	nd	nd	nd	AJ318780	"Rajevic et al., 2015"
+	T. magna	nd	Free-living	nd	nd			AJ969630	nd	nd	nd		"Rajevic et al., 2015"
+	Viridiella fridericiana	nd	Free-living	nd	nd			nd	nd	nd	nd	FM958481	"Rajevic et al., 2015"
+	Watanabea reniformis	nd	Free-living	nd	nd			nd	nd	nd	nd	FM958480	"Rajevic et al., 2015"
+	Desmodesmus communis	nd	Free-living	nd	nd			KC810306	X73994	nd	nd	AY461372	"Rajevic et al., 2015"
+	D. subspicatus	nd	Free-living	nd	nd			KC810307	nd	nd	nd	AY461367	"Rajevic et al., 2015"
+	S. costatus	nd	Free-living	nd	nd			nd	AB037090	nd	nd	AB762692	"Rajevic et al., 2015"
+	S. obliquus	nd	Free-living	nd	nd			EF113469	AJ249515	nd	nd	AJ249506	"Rajevic et al., 2015"
+	S. vacuolatus	nd	Free-living	nd	nd			nd	X56104	nd	nd	AB762693	"Rajevic et al., 2015"
+	Ankistrodesmus stipitatus	nd	Free-living	nd	nd			EF113406	nd	nd	nd		"Rajevic et al., 2015"
+	Bracteacoccus aerius	nd	Free-living	nd	nd			JQ259861	nd	nd	nd	JQ281838	"Rajevic et al., 2015"
+	Bulbochaete hiloensis	nd	Free-living	nd	nd			EF113415	nd	nd	nd	AY962677	"Rajevic et al., 2015"
+	Carteria cerasiformis	nd	Free-living	nd	nd			D89768	nd	nd	nd		"Rajevic et al., 2015"
+	Chaetopeltis orbicularis	nd	Free-living	nd	nd			nd	nd	nd	nd	FR865748	"Rajevic et al., 2015"
+	Chlamydomonas debaryana	nd	Free-living	nd	nd			D86838	nd	nd	nd	FR865600	"Rajevic et al., 2015"
+	C. humicola	nd	Free-living	nd	nd			nd	nd	nd	nd	DQ377088	"Rajevic et al., 2015"
+	C. moewusii	nd	Free-living	nd	nd			EF113422	nd	nd	nd	FR865601	"Rajevic et al., 2015"
+	C. reinhardtii	nd	Free-living	nd	nd			AB511845	nd	nd	nd	U66954	"Rajevic et al., 2015"
+	Chlorococcum sp.	nd	Free-living	nd	nd			AB713414	AB713407	nd	nd		"Rajevic et al., 2015"
+	Dunaliella salina	nd	Free-living	nd	nd			DQ173088	nd	nd	nd	DQ116743	"Rajevic et al., 2015"
+	Enallax acutiformis	nd	Free-living	nd	nd			nd	AB037089	nd	nd		"Rajevic et al., 2015"
+	Haematococcus pluvialis	nd	Free-living	nd	nd			FJ438476	nd	nd	nd	GQ463618	"Rajevic et al., 2015"
+	Hydrodictyon reticulatum	nd	Free-living	nd	nd			EF078305	nd	nd	nd	AY577738	"Rajevic et al., 2015"
+	Monoraphidium sp.	nd	Free-living	nd	nd			KC810300	nd	nd	nd		"Rajevic et al., 2015"
+	Mychonastes homosphaera	nd	Free-living	nd	nd			nd	X73996	nd	nd	GQ477054	"Rajevic et al., 2015"
+	Pediastrum duplex	nd	Free-living	nd	nd			EF113461	nd	nd	nd	AY577745	"Rajevic et al., 2015"
+	Pleodorina japonica	nd	Free-living	nd	nd			nd	nd	nd	nd		"Rajevic et al., 2015"
+	Protosiphon botryoides	nd	Free-living	nd	nd			JN880463	nd	nd	nd		"Rajevic et al., 2015"
+	Stigeoclonium hevleticum	nd	Free-living	nd	nd			nd	nd	nd	nd	HQ646382	"Rajevic et al., 2015"
+	Tetrademus wisconsinensis	nd	Free-living	nd	nd			nd	AB037097	nd	nd		"Rajevic et al., 2015"
+	Volvox carteri f. nagariensis	nd	Free-living	nd	nd			AB076099	nd	nd	nd		"Rajevic et al., 2015"
+	Gloeotilopsis planctonica	nd	Free-living	nd	nd			AF499681	Z28970	nd	nd		"Rajevic et al., 2015"
+	Ulothrix zonata	nd	Free-living	nd	nd			nd	Z47999	nd	nd	HE860526	"Rajevic et al., 2015"
+	Ulva rigida	nd	Free-living	nd	nd			EF110009	nd	nd	nd	AJ234319	"Rajevic et al., 2015"
+	Prasinococcus capsulatus	nd	Free-living	nd	nd			L34834	AB058384	nd	nd	HE610141	"Rajevic et al., 2015"
+	Chlorella_sp_hydra		Hydra viridissima	nd	nd	Switzerland		KC810316	AB713411	nd	nd	FM205844	"Rajevic et al., 2015"
+	Coccomyxa_sp_hydra	T	Hydra viridissima	nd	nd	"Turopolje, Croatia"							"Rajevic et al., 2015"
+	Chlorella_sp_hydra	M9	Hydra viridissima	nd	nd	Israel							"Rajevic et al., 2015"
+	Chlorella_sp_hydra	HV	Hydra viridissima	nd	nd	Germany							"Rajevic et al., 2015"
+	Chlorella_sp_hydra	CZ80	Hydra viridissima	nd	nd	"Botanical Garden, Croatia"							"Rajevic et al., 2015"
+	Chlorella_sp_hydra	CZ120	Hydra viridissima	nd	nd	"Jarun Lake, Croatia"							"Rajevic et al., 2015"
+	C_vulgaris	LU18	Free-living	nd	nd	"Midwest, USA"		JQ415915	nd	nd	nd	nd	"Zou et al., 2016"
+	C_sorokiniana	LU10	Free-living	nd	nd	"Midwest, USA"		JQ415922	nd	nd	nd	nd	?
+	M_pusillum	LUCC_022	Free-living	nd	nd			KC810318	nd	nd	nd	nd	?
+	Chl_pyrenoidosa	SUN_CHLORELLA	Free-living	nd	nd			AB240145	nd	nd	nd	nd	?
+	Actinastrum_hantzchii	 UTEX LB 605 	Free-living	nd	nd			EF113405	nd	nd	nd	nd	?
+	Meyerella_planktonica 	S-11w	Free-living	nd	nd	"Lake Itasca, Minnesota, USA"		AY543047	nd	nd	nd	nd	?
+	Didmyogenes anomalus	SAG 18.91	Free-living	nd	nd	"Rhine, Germany"		nd	nd	nd	nd	FM205839	"Proschold et al., 2010"
+	Chlorella vulgaris	SAG 211-11b	Free-living	nd	nd	Netherlands		nd	nd	nd	nd	FM205832	"Darienko et al., 2019"
+	Chlorella sorokiniana	CCAP 211/8K	Free-living	nd	nd	"Texas, USA"		nd	nd	nd	nd	FM205859	
+	Micractinium pusillum	SAG 72.80	Free-living	nd	nd	"Gif-sur-Yvette, France"		nd	nd	nd	nd	FM205837	
+	Actinastrum_hantzchii	SAG 2015	Free-living	nd	nd	"Sachsen-Anhalt, Germany"		nd	nd	nd	nd	FM205841	
+	Meyerella_planktonica	Itas 2/24 S-1w	Free-living	nd	nd	"Lake Itasca, Minnesota, USA"		nd	nd	nd	nd	AY543040	
+	M_pusillum	CCAP 248/7	Free-living	nd	nd	"Sachsen, Germany"		nd	AM231740	nd	nd	nd	
+	M_conductrix		P.bursaria	nd	nd			nd	PSC69440	nd	nd	nd	
+	Chl_variabilis		P. bursaria	nd	nd	India		nd	KF849475	nd	nd	nd	
+	Chl. Variabilis	NC64A	P.bursaria	nd	nd			AIH00184	nd	nd	nd	nd	
+	Chl_stokesia	PIB	Stokesia vernalis	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030572	"Summerer etl al., 2007"
+	Chl_Pelagodileptus	PIB	Pelagodileptus trachelioides	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030573	"Summerer etl al., 2007"
+	Chl_stentor	PIB	Stentor polymorphus	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030575	"Summerer etl al., 2007"
+	Chl_Teuthophrys 	PIB	Teuthophrys trisulca trisulca	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030574	"Summerer etl al., 2007"
+	Chl_ Uroleptus 	PIB	Uroleptus sp.	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030571	"Summerer etl al., 2007"
+	Chl_ Askenasia 	PIB	Askenasia chlorelligera	nd	nd	"Piburger See, Austria"		nd	nd	nd	nd	EF030576	"Summerer etl al., 2007"
+	Chl_ Askenasia 	GKS	Askenasia chlorelligera	nd	nd	"Gossenköllesee, Austria"		nd	nd	nd	nd	EF030577	"Summerer etl al., 2007"
+	Chl_hydra_KRAN		Hydra viridissima	nd	nd	"Innsbruck, Austria"		nd	nd	nd	nd		"Summerer etl al., 2007"
+	Chl_hydra_multiheaded		Hydra viridissima	nd	nd	"Florida, USA"		nd	nd	nd	nd		"Summerer etl al., 2007"
+	Chl_minutissima	CCAP211_52	Free-living	nd	nd	New Zealand		nd	nd	nd	nd	EF030581	"Summerer etl al., 2007"
+	American	ATCC_50258	P.bursaria	nd	R1	"New York, USA"		nd	nd	nd	nd	AB206549	
+	American	ATCC_30562	P.bursaria	nd	R2	"Ohio, USA"		nd	nd	nd	nd	AB206550	
+	American	SAG_211_6	P.bursaria	nd	nd	USA		nd	AB260893	nd	nd	nd	
+	American	N1A	P.bursaria	nd	R1	USA		nd	nd	nd	nd	nd	
+	American	OK1_ZK	P.bursaria	nd	R1	"Aichi, Japan"		nd	nd	nd	nd	AB162912	
+	American	Sol3_ZK	P.bursaria	nd	R1	"Nagano, Japan"		nd	nd	nd	nd	AB162913	
+	American	F36_ZK	P.bursaria	nd	R1	Japan		nd	nd	nd	nd	AB162914	
+	American	KM2_ZK	P.bursaria	nd	R1	"Shimane, Japan"		nd	nd	nd	nd	AB162915	
+	American	Dd1_ZK	P.bursaria	nd	R1	"Ibaraki, Japan"		nd	nd	nd	nd	AB162916	
+	American	Bnd1_ZK	P.bursaria	nd	R1	"Hiroshima, Japan"		nd	nd	nd	nd	AB162917	
+	European	CCAP_1660_12	P.bursaria	nd	R2	"Cambridge, UK"		nd	nd	nd	nd	AB206548	"Hoshina et al., 2005"
+	Chl_vulgaris	CCAP_1660_10	P.bursaria	nd	nd			nd	nd	nd	nd	AB260895	"Hoshina et al., 2005"
+	Coccomyxa_sp.	CCAP_1660_13	P.bursaria	nd	nd	"Cambridge, UK"		nd	nd	nd	nd	AB109544	"Hoshina et al., 2005"

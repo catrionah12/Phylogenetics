@@ -1,0 +1,1 @@
+(m_conductrix_genome_proteins_PSC72995.1:0.398655,((a99_genome_proteins_scaffold1.g5873.t1:0.531908,(c_vulgaris_genome_proteins_KAI3431761.1:0.253784,c_vulgaris_genome_proteins_KAI3431763.1:0.42647)n3:0.0806505)n2:0.0876812,c_variabilis_genome_proteins_XP_005842800.1:0.361235)n1:0.398655)n0;

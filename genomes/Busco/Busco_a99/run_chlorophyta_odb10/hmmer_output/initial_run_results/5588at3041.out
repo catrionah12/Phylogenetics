@@ -1,0 +1,40 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+scaffold8.g1573.t1   -            538 5588at3041           -            141   9.9e-56  186.4   0.0   1   1   3.8e-58   1.9e-55  185.5   0.0     1   116    17   139    17   151 0.93 -
+scaffold2.g6998.t1   -            181 5588at3041           -            141   4.6e-47  158.3   0.3   1   2   1.3e-45   6.1e-43  144.9   0.1     1   122    18   142    18   157 0.93 -
+scaffold2.g6998.t1   -            181 5588at3041           -            141   4.6e-47  158.3   0.3   2   2   0.00012     0.058   12.1   0.0   115   138   157   180   149   181 0.92 -
+scaffold22.g6105.t1  -            156 5588at3041           -            141   3.1e-39  132.9   0.0   1   1   8.6e-42   4.2e-39  132.5   0.0     2   112    29   142    28   154 0.93 -
+scaffold2.g6864.t1   -            182 5588at3041           -            141   5.2e-39  132.2   0.0   1   2   3.6e-39   1.8e-36  124.0   0.0     2   116    19   136    18   147 0.93 -
+scaffold2.g6864.t1   -            182 5588at3041           -            141   5.2e-39  132.2   0.0   2   2    0.0072       3.5    6.4   0.0   105   135   150   177   145   181 0.82 -
+scaffold1.g5536.t1   -            204 5588at3041           -            141   4.6e-27   93.5   0.0   1   2   6.9e-26   3.4e-23   81.0   0.0    24   121    52   152    18   167 0.76 -
+scaffold1.g5536.t1   -            204 5588at3041           -            141   4.6e-27   93.5   0.0   2   2   0.00032      0.16   10.8   0.0   114   137   167   190   160   193 0.90 -
+scaffold6.g2527.t1   -           1467 5588at3041           -            141     7e-27   92.9   0.0   1   1   2.6e-29   1.3e-26   92.1   0.0     2   118  1293  1413  1292  1424 0.90 -
+scaffold6.g2657.t1   -            693 5588at3041           -            141   5.2e-25   86.8   0.0   1   2   1.5e-26   7.4e-24   83.1   0.0     2   114   308   423   307   435 0.93 -
+scaffold6.g2657.t1   -            693 5588at3041           -            141   5.2e-25   86.8   0.0   2   2      0.27   1.3e+02    1.2   0.0   114   135   457   478   446   484 0.84 -
+scaffold11.g3994.t1  -            208 5588at3041           -            141   1.8e-10   39.7   0.0   1   1     5e-13   2.4e-10   39.3   0.0     2   112    16   134    15   159 0.85 -
+scaffold3.g6405.t1   -            203 5588at3041           -            141   2.7e-09   35.9   0.2   1   1   7.2e-12   3.5e-09   35.5   0.2     2   120    10   139     9   158 0.78 -
+scaffold1.g5509.t1   -            753 5588at3041           -            141   3.1e-07   29.2   0.2   1   2         4   1.9e+03   -2.5   0.0    19    33   392   406   380   411 0.85 -
+scaffold1.g5509.t1   -            753 5588at3041           -            141   3.1e-07   29.2   0.2   2   2   1.7e-09   8.2e-07   27.9   0.0     2   113   542   660   541   686 0.77 -
+scaffold10.g2381.t1  -            197 5588at3041           -            141   1.2e-06   27.3   0.0   1   1     3e-09   1.5e-06   27.0   0.0     3   121    11   135     9   152 0.85 -
+scaffold21.g2206.t1  -            522 5588at3041           -            141    0.0001   21.1   0.0   1   2   1.1e-06   0.00055   18.7   0.0     3   112    45   167    44   179 0.70 -
+scaffold21.g2206.t1  -            522 5588at3041           -            141    0.0001   21.1   0.0   2   2       5.8   2.8e+03   -3.0   0.0   112   131   231   250   228   255 0.80 -
+scaffold13.g386.t1   -            317 5588at3041           -            141   0.00017   20.3   0.2   1   2   8.7e-07   0.00042   19.1   0.1    38   129   119   209   101   219 0.83 -
+scaffold13.g386.t1   -            317 5588at3041           -            141   0.00017   20.3   0.2   2   2       2.7   1.3e+03   -2.0   0.0    28    41   215   228   210   234 0.79 -
+scaffold3.g6638.t1   -            812 5588at3041           -            141   0.00069   18.4   0.1   1   1   2.4e-06    0.0012   17.6   0.1     2   115   610   730   609   769 0.75 -
+scaffold19.g1846.t1  -            238 5588at3041           -            141    0.0034   16.2   0.0   1   2   1.7e-05    0.0085   14.8   0.0     4   113    33   150    30   161 0.67 -
+scaffold19.g1846.t1  -            238 5588at3041           -            141    0.0034   16.2   0.0   2   2       2.8   1.4e+03   -2.0   0.0   110   132   193   215   187   220 0.74 -
+scaffold1.g5895.t1   -            550 5588at3041           -            141     0.062   12.0   0.0   1   1   0.00024      0.12   11.2   0.0     1    44   222   265   222   280 0.86 -
+scaffold2.g6783.t1   -            660 5588at3041           -            141     0.086   11.6   0.2   1   3      0.14        68    2.2   0.0     3    29   151   177   150   193 0.85 -
+scaffold2.g6783.t1   -            660 5588at3041           -            141     0.086   11.6   0.2   2   3       1.8   8.6e+02   -1.4   0.0    63    76   251   264   246   281 0.80 -
+scaffold2.g6783.t1   -            660 5588at3041           -            141     0.086   11.6   0.2   3   3     0.012       6.1    5.6   0.0     3    43   355   395   353   405 0.85 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5588at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_a99/run_chlorophyta_odb10/hmmer_output/initial_run_results/5588at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5588at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/a99.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:49:17 2022
+# [ok]

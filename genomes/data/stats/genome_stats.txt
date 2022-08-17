@@ -1,0 +1,6 @@
+Species	Branch_length	Genome_size	Protein_coding	GC_content	Pseudogenes
+C_vulgaris	0	40.44	11.141	61.5	0.116
+C_sorokiniana	0	59.37	10.384	64.08	0.014
+M_conductrix	0.3092	60.77	10.070	67.16	0.094
+C_variabilis	0.2427	46.16	9.780	67.09	1.264
+A99	0.6399	40.93	8.298	68	NA

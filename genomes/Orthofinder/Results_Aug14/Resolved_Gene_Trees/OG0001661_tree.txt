@@ -1,0 +1,1 @@
+(a99_genome_proteins_scaffold1.g5844.t1:0.489279,(a99_genome_proteins_scaffold9.g3118.t1:0.696087,(a99_genome_proteins_scaffold4.g4828.t1:1.21103,((a99_genome_proteins_scaffold12.g8214.t1:6.041e-06,a99_genome_proteins_scaffold4.g4982.t1:1.54143)n4:0.0404804,a99_genome_proteins_scaffold1.g5174.t1:1.48565)n3:0.221774)n2:0.408481)n1:0.489279)n0;

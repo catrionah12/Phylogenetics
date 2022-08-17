@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3429680.1         -            207 8451at3041           -            118   2.9e-65  217.1  12.8   1   1   2.1e-67     2e-64  214.4  12.8     1   118    67   190    59   190 0.88 -
+KAI3429597.1         -            136 8451at3041           -            118   1.9e-40  137.1   0.7   1   1   2.5e-43   2.3e-40  136.8   0.7     9   117     2   114     1   115 0.93 -
+KAI3424353.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3424375.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3424383.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3424402.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3424410.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3424432.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_18, whole genome shotgun sequence.
+KAI3428571.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_10, whole genome shotgun sequence.
+KAI3428592.1         -            127 8451at3041           -            118   3.8e-39  132.9   0.7   1   1   4.7e-42   4.3e-39  132.7   0.7     9   117     2   114     1   115 0.92 Chlorella vulgaris isolate 211/11P Super-Scaffold_10, whole genome shotgun sequence.
+KAI3427071.1         -            132 8451at3041           -            118   4.1e-39  132.8   0.7   1   1   5.4e-42     5e-39  132.5   0.7     9   117     2   114     1   115 0.92 -
+KAI3438325.1         -            235 8451at3041           -            118      0.02   14.5   0.1   1   1   2.1e-05      0.02   14.5   0.1    28   109    10    90     2    95 0.79 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/8451at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/8451at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/8451at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:41:53 2022
+# [ok]

@@ -1,0 +1,1 @@
+((m_conductrix_genome_proteins_PSC72126.1:0.02987,c_variabilis_genome_proteins_XP_005847026.1:0.063763):0.00661,(c_vulgaris_genome_proteins_KAI3438308.1:0.111668,c_sorokiniana_genome_proteins_PRW57307.1:0.0635561):0.00661);

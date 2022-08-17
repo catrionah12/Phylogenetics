@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+XP_005849078.1       -            711 175at3041            -            764  1.7e-105  352.8  35.9   1   3         8   9.8e+03   -9.3   6.3   658   677   391   410   386   413 0.55 -
+XP_005849078.1       -            711 175at3041            -            764  1.7e-105  352.8  35.9   2   3   2.6e-35   3.2e-32  110.5   2.5   374   443   460   529   452   530 0.93 -
+XP_005849078.1       -            711 175at3041            -            764  1.7e-105  352.8  35.9   3   3   1.7e-79     2e-76  256.6  25.7   579   762   530   708   529   710 0.95 -
+XP_005851052.1       -            239 175at3041            -            764   9.6e-05   19.6   0.3   1   2   3.1e-06    0.0038   14.4   2.1   608   643    37    72    31    87 0.85 -
+XP_005851052.1       -            239 175at3041            -            764   9.6e-05   19.6   0.3   2   2     0.038        46    0.8   0.0   447   520   128   201   122   207 0.83 -
+XP_005850711.1       -           1719 175at3041            -            764    0.0014   15.8   0.1   1   2   1.2e-06    0.0014   15.8   0.1   171   241   461   528   454   540 0.77 -
+XP_005850711.1       -           1719 175at3041            -            764    0.0014   15.8   0.1   2   2      0.57     7e+02   -3.1   0.2   531   554  1158  1184  1131  1188 0.71 -
+XP_005844641.1       -             90 175at3041            -            764    0.0015   15.7   2.4   1   1   1.2e-06    0.0015   15.7   2.4   202   241    44    89    26    90 0.73 -
+XP_005845979.1       -            218 175at3041            -            764    0.0021   15.2   3.5   1   1   2.6e-06    0.0031   14.6   3.5   206   241   182   217   179   217 0.96 -
+XP_005844680.1       -            576 175at3041            -            764    0.0039   14.3   1.2   1   1   4.8e-06    0.0059   13.7   1.2   200   253   431   483   425   502 0.84 -
+XP_005850020.1       -            162 175at3041            -            764     0.013   12.5   1.3   1   1   1.3e-05     0.016   12.3   1.3   203   254     8    58     2    79 0.80 Chlorella variabilis unplaced genomic scaffold CHLNCscaffold_4, whole genome shotgun sequence.
+XP_005844158.1       -            442 175at3041            -            764     0.038   11.0   0.0   1   1   4.5e-05     0.056   10.5   0.0   600   645   210   253   193   281 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/175at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/175at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/175at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:00:38 2022
+# [ok]

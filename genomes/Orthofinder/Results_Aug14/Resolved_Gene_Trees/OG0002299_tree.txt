@@ -1,0 +1,1 @@
+(c_vulgaris_genome_proteins_KAI3437651.1:0.0905856,(((c_vulgaris_genome_proteins_KAI3437635.1:1.17808,c_vulgaris_genome_proteins_KAI3437689.1:0.837478)n3:0.361383,c_vulgaris_genome_proteins_KAI3437656.1:0.239683)n2:0.0922633,(c_vulgaris_genome_proteins_KAI3437650.1:0.395165,c_vulgaris_genome_proteins_KAI3437653.1:0.0470346)n4:0.293906)n1:0.0905856)n0;

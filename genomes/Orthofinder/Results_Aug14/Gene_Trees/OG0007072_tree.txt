@@ -1,0 +1,1 @@
+(c_vulgaris_genome_proteins_KAI3430461.1:0.434797,((c_variabilis_genome_proteins_XP_005843350.1:0.820783,c_variabilis_genome_proteins_XP_005843654.1:1.46747):0.0420908,c_variabilis_genome_proteins_XP_005843406.1:0.842835):0.434797);

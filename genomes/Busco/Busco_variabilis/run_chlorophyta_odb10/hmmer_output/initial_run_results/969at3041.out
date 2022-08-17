@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+XP_005850140.1       -            545 969at3041            -            462  2.6e-234  777.3  18.2   1   1  7.6e-236  9.3e-233  772.2  18.2     1   462     4   533     4   533 0.92 -
+XP_005844607.1       -            537 969at3041            -            462   5.3e-60  202.7   0.7   1   1     8e-63   9.8e-60  201.8   0.7    22   418    28   471    18   491 0.82 -
+XP_005845471.1       -            576 969at3041            -            462   1.4e-59  201.3   7.0   1   2   1.8e-60   2.2e-57  194.1   2.0     1   428     4   484     4   495 0.80 -
+XP_005845471.1       -            576 969at3041            -            462   1.4e-59  201.3   7.0   2   2    0.0073       8.9    4.1   0.3   412   454   494   535   487   543 0.80 -
+XP_005851017.1       -            534 969at3041            -            462   3.3e-55  186.9  11.4   1   1   7.7e-57   9.4e-54  182.1  11.4    24   432    22   490    10   533 0.77 -
+XP_005849939.1       -            562 969at3041            -            462   2.5e-52  177.4   5.7   1   1   4.6e-53   5.7e-50  169.6   5.7    22   428    20   480     8   535 0.78 -
+XP_005847362.1       -            558 969at3041            -            462   1.4e-51  174.9  13.6   1   2   8.3e-52     1e-48  165.5  11.0    25   424    23   486    16   499 0.81 -
+XP_005847362.1       -            558 969at3041            -            462   1.4e-51  174.9  13.6   2   2    0.0094        12    3.8   0.0   435   453   528   546   513   550 0.88 -
+XP_005847587.1       -           1011 969at3041            -            462   1.8e-46  158.0  15.8   1   1   7.4e-48     9e-45  152.5  15.8    29   455    30   525     7   533 0.80 -
+XP_005848715.1       -            533 969at3041            -            462   1.8e-38  131.7   4.0   1   1   3.1e-41   3.8e-38  130.6   4.0    19   431    15   482    10   485 0.77 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/969at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/969at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/969at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:08:44 2022
+# [ok]

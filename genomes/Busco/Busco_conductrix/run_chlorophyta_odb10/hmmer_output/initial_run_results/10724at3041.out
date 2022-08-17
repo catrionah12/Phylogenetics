@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC70901.1           -            174 10724at3041          -             81   9.7e-34  114.7   1.7   1   2   4.7e-07   0.00079   18.9   0.0     1    24    24    47    24    57 0.86 -
+PSC70901.1           -            174 10724at3041          -             81   9.7e-34  114.7   1.7   2   2   6.9e-31   1.2e-27   95.2   0.5    18    81    58   122    54   122 0.96 -
+PSC72273.1           -            130 10724at3041          -             81   3.4e-18   64.9   0.0   1   1     3e-21   5.1e-18   64.3   0.0     4    81    21   104    17   104 0.94 -
+PSC71651.1           -            245 10724at3041          -             81     2e-09   36.8   0.0   1   1   1.9e-12   3.2e-09   36.2   0.0     4    80     6    89     3    90 0.79 -
+PSC69577.1           -            305 10724at3041          -             81   7.7e-06   25.3   0.2   1   1   8.1e-09   1.4e-05   24.5   0.2     2    63    76   141    75   156 0.87 -
+PSC76788.1           -            258 10724at3041          -             81    0.0014   18.0   0.1   1   1   2.1e-06    0.0035   16.8   0.1     4    59   107   166   105   185 0.86 -
+PSC74522.1           -            104 10724at3041          -             81      0.07   12.6   0.0   1   1   5.1e-05     0.086   12.3   0.0    29    63    58    92    28    98 0.78 Micractinium conductrix strain SAG 241.80 contig_4, whole genome shotgun sequence.
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10724at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/10724at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10724at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:12:53 2022
+# [ok]

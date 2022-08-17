@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3424459.1         -            623 505at3041            -            538         0 1037.9   0.0   1   1         0         0 1037.4   0.0     1   538    13   611    13   611 0.92 -
+KAI3439110.1         -            523 505at3041            -            538   2.2e-30  105.0   0.1   1   2      0.48   7.7e+02   -2.5   0.0     2    81    51   139    50   155 0.61 -
+KAI3439110.1         -            523 505at3041            -            538   2.2e-30  105.0   0.1   2   2   3.3e-33   5.3e-30  103.7   0.0   159   463   152   455   141   473 0.86 -
+KAI3423545.1         -            482 505at3041            -            538     5e-29  100.5   0.1   1   2      0.15   2.5e+02   -0.8   0.1     2    85    12   110    11   121 0.62 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3423545.1         -            482 505at3041            -            538     5e-29  100.5   0.1   2   2   9.1e-32   1.5e-28   98.9   0.0   178   468   140   426   113   453 0.84 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3438085.1         -            496 505at3041            -            538   8.7e-24   83.2   0.2   1   2   0.00012      0.19    9.4   0.1     5    55    37    91    33   127 0.73 -
+KAI3438085.1         -            496 505at3041            -            538   8.7e-24   83.2   0.2   2   2   1.4e-23   2.2e-20   71.9   0.0   249   465   230   449   155   458 0.84 -
+KAI3423544.1         -            501 505at3041            -            538   6.9e-16   57.1   0.2   1   1   6.6e-19     1e-15   56.5   0.2   165   406   135   365    91   379 0.84 Chlorella vulgaris isolate 211/11P chloroplast, complete sequence, whole genome shotgun sequence.
+KAI3423003.1         -            427 505at3041            -            538   6.4e-11   40.7   0.4   1   2      0.32   5.1e+02   -1.9   0.0    31    79    32    84    10   101 0.72 Chlorella vulgaris isolate 211/11P mitochondrion, complete sequence, whole genome shotgun sequence.
+KAI3423003.1         -            427 505at3041            -            538   6.4e-11   40.7   0.4   2   2   1.2e-13   1.9e-10   39.2   0.1   159   407   101   346    88   354 0.80 Chlorella vulgaris isolate 211/11P mitochondrion, complete sequence, whole genome shotgun sequence.
+KAI3426327.1         -            737 505at3041            -            538   5.5e-06   24.4   0.1   1   1   5.6e-09   8.9e-06   23.7   0.1   163   300   234   364   218   385 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/505at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/505at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/505at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:38:44 2022
+# [ok]

@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3438888.1         -            249 5561at3041           -            204   1.5e-97  324.5   0.0   1   1  1.3e-100   2.1e-97  324.0   0.0     1   199     1   219     1   228 0.95 -
+KAI3426505.1         -            236 5561at3041           -            204   1.9e-30  105.3   0.0   1   1   2.3e-33   3.6e-30  104.4   0.0     6   199     4   218     2   223 0.88 -
+KAI3425062.1         -            257 5561at3041           -            204   8.5e-30  103.2   0.0   1   1   1.9e-31     3e-28   98.1   0.0     7   184     4   207     1   223 0.87 -
+KAI3438232.1         -            247 5561at3041           -            204   4.6e-25   87.7   0.3   1   1   7.1e-28   1.1e-24   86.4   0.3     7   191     3   208     1   211 0.87 -
+KAI3431557.1         -            241 5561at3041           -            204   6.8e-24   83.9   0.0   1   1     8e-27   1.3e-23   83.0   0.0     6   194     6   221     2   228 0.87 -
+KAI3434548.1         -            247 5561at3041           -            204   7.4e-23   80.5   0.1   1   1   6.7e-26   1.1e-22   80.0   0.1     1   192     1   217     1   223 0.81 -
+KAI3423917.1         -            286 5561at3041           -            204   2.5e-21   75.5   0.1   1   1   2.1e-24   3.3e-21   75.1   0.1     7   176     5   195     2   216 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5561at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/5561at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/5561at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:37:53 2022
+# [ok]

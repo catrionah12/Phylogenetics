@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/7956at3041.hmm
+# target sequence database:        /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# per-dom hits tabular output:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/7956at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7956at3041  [M=152]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------     -----------
+    4.4e-63  211.3  15.4    1.2e-62  209.9  15.4    1.6  1  KAI3431400.1  
+    1.1e-07   31.5   6.6    3.7e-07   29.7   6.6    1.8  1  KAI3427020.1  
+
+
+Domain annotation for each sequence (and alignments):
+>> KAI3431400.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.9  15.4   2.1e-66   1.2e-62       1     152 []      62     234 ..      62     234 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 209.9 bits;  conditional E-value: 2.1e-66
+    7956at3041   1 tldesvwktlkrdvkriaknlkavlip......qaqalrnWdlwGPlvfvlvlaivlsvga...sevfsvvfatvalgavvltvnvlllGg.iiflq 87 
+                   tlde+vw+t krd++ri+knl++v++p      q++alrnWdlwGP++f+l lai+ls+ga   s++fs+vfa v++ga++ltvnv+llGg i f+q
+  KAI3431400.1  62 TLDEPVWETAKRDLRRIYKNLVMVVFPfkdrsqQSAALRNWDLWGPMIFTLGLAIALSLGAataSKTFSLVFALVSVGAIALTVNVVLLGGtIGFFQ 158
+                   8************************986666557789*********************98533389***********************97588*** PP
+
+    7956at3041  88 alsllGycllplvvaaivc........rlivv...vawasaasvpfvsaavpaerkalavypvvllyvslgllalv 152
+                   +l+llGycl+p++vaaivc        r+ivv   v+was+as+pf+++avp++r+alavyp+vllyv++g+lal+
+  KAI3431400.1 159 SLCLLGYCLFPMDVAAIVCvtvdimlvRWIVVpimVVWASWASIPFIGGAVPTNRRALAVYPLVLLYVAVGWLALI 234
+                   ****************99866665555777655449**************************************97 PP
+
+>> KAI3427020.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.7   6.6   6.7e-11   3.7e-07       8     151 ..      69     236 ..      63     237 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 29.7 bits;  conditional E-value: 6.7e-11
+    7956at3041   8 ktlkrdvkriaknlkavlip..qaqalrnWdlwGPlvfvlvlaivlsvgasevfsvvfatvalgavvltvnvlllGg........iiflqalsllGy 94 
+                   + l  d+  i + ++++l+   + + + + dl GPl+f+ +l+++  +     f  ++  + +g+++l   +  + g        + ++   +l+Gy
+  KAI3427020.1  69 EELGIDIPAILSRTRSILTLrlSGHDMDHLDLGGPLIFMAMLGAAHLLVGKMHFGYILGWMVVGSMLLWFVLNSITGtedpdaksLDLYSCTCLMGY 165
+                   55667888888888888765115678999*************98877777889**************988777665534444444889********* PP
+
+    7956at3041  95 cllplv....vaa........ivcrlivvvawasa.asvpfvsaa.vpaerkalavypvvllyvslgllal 151
+                    llplv    +a         +++ ++v v was  a+  fv  + + + ++ + +yp +l+y+s++ll+l
+  KAI3427020.1 166 SLLPLVghafLALavprrslpMIAAAVVAVLWASHtAAKLFVRRSpLLDGQHLVVLYPCLLMYTSFALLSL 236
+                   ****983333232112222223445678899*997245568887625566666678************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (152 nodes)
+Target sequences:                        11167  (5905773 residues searched)
+Passed MSV filter:                       368  (0.0329542); expected 223.3 (0.02)
+Passed bias filter:                      179  (0.0160294); expected 223.3 (0.02)
+Passed Vit filter:                        11  (0.000985045); expected 11.2 (0.001)
+Passed Fwd filter:                         2  (0.000179099); expected 0.1 (1e-05)
+Initial search space (Z):              11167  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.44u 0.00s 00:00:00.44 Elapsed: 00:00:00.41
+# Mc/sec: 2189.46
+//
+[ok]

@@ -1,0 +1,1 @@
+(m_conductrix_genome_proteins_PSC76423.1:0.145533,((m_conductrix_genome_proteins_PSC71951.1:0.15474,m_conductrix_genome_proteins_PSC68887.1:9.02317e-07):0.109101,m_conductrix_genome_proteins_PSC68475.1:0.403475):0.145533);

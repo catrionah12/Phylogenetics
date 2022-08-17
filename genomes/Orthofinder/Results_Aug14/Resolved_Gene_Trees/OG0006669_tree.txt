@@ -1,0 +1,1 @@
+(m_conductrix_genome_proteins_PSC75551.1:0.168965,(c_sorokiniana_genome_proteins_PRW50869.1:0.361765,(c_sorokiniana_genome_proteins_PRW45675.1:1.54585,c_sorokiniana_genome_proteins_PRW51080.1:0.130026)n2:0.047214)n1:0.168965)n0;

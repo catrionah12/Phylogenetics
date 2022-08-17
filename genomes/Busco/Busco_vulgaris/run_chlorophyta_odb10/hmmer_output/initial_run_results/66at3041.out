@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   1   8     1e-76   2.8e-73  246.4  12.3     2   220     3   248     2   252 0.90 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   2   8   9.2e-76   2.6e-72  243.2   4.9   216   459   273   541   269   557 0.87 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   3   8  8.4e-109  2.3e-105  352.7   0.8   442   685   609   868   598   878 0.92 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   4   8   1.7e-74   4.8e-71  239.0  10.4   674   897   886  1128   868  1141 0.87 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   5   8     6e-86   1.7e-82  277.0   1.5   874  1129  1168  1456  1128  1467 0.81 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   6   8     0.041   1.1e+02   -0.8   0.1  1136  1150  1604  1618  1599  1627 0.90 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   7   8   1.3e-48   3.7e-45  153.2   0.0  1159  1301  1669  1841  1667  1852 0.86 -
+KAI3430287.1         -           2155 66at3041             -           1390         0 1523.7  66.3   8   8   1.8e-13     5e-10   36.8   0.2  1298  1376  1916  2003  1910  2013 0.82 -
+KAI3434467.1         -           1015 66at3041             -           1390   3.7e-06   24.0   3.6   1   3   4.5e-08   0.00012   18.9   0.3   682   814   226   356   171   362 0.85 -
+KAI3434467.1         -           1015 66at3041             -           1390   3.7e-06   24.0   3.6   2   3    0.0025         7    3.2   0.1   705   813   404   511   391   523 0.79 -
+KAI3434467.1         -           1015 66at3041             -           1390   3.7e-06   24.0   3.6   3   3    0.0043        12    2.4   0.1   339   405   502   571   443   579 0.48 -
+KAI3425846.1         -            950 66at3041             -           1390   9.9e-05   19.2   2.2   1   1   5.9e-08   0.00016   18.5   1.9   508   664   565   738   495   749 0.80 -
+KAI3429660.1         -           1502 66at3041             -           1390   0.00013   18.9   8.5   1   2   6.6e-08   0.00018   18.3   5.0   713   888    47   238    27   257 0.73 -
+KAI3429660.1         -           1502 66at3041             -           1390   0.00013   18.9   8.5   2   2    0.0097        27    1.2   0.1   359   407  1320  1372  1276  1420 0.70 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/66at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/66at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/66at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:39:28 2022
+# [ok]

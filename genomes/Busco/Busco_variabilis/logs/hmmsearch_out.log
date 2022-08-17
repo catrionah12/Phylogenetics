@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/7956at3041.hmm
+# target sequence database:        /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_variabilis.prot.fasta
+# per-dom hits tabular output:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_variabilis/run_chlorophyta_odb10/hmmer_output/initial_run_results/7956at3041.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7956at3041  [M=152]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.2e-63  211.2  15.4    1.4e-62  209.4  15.4    1.7  1  XP_005846145.1  
+    4.5e-06   26.0   4.8    1.7e-05   24.2   4.8    1.8  1  XP_005848718.1  
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_005846145.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  209.4  15.4   2.9e-66   1.4e-62       1     152 []       6     178 ..       6     178 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 209.4 bits;  conditional E-value: 2.9e-66
+      7956at3041   1 tldesvwktlkrdvkriaknlkavlip......qaqalrnWdlwGPlvfvlvlaivlsvg...asevfsvvfatvalgavvltvnvlllGg.iif 85 
+                     tlde+vw+t krd++ri+knl++v++p      q++alrnWdlwGP++f+l la++ls+g   as++fs+vfa v++ga+vltvnv+llGg i f
+  XP_005846145.1   6 TLDEPVWETAKRDLRRICKNLVMVVFPfkdrsqQSAALRNWDLWGPMIFTLGLATTLSLGaqtASKTFSLVFALVSMGAIVLTVNVVLLGGtIGF 100
+                     8************************986666557789*********************98333589***********************97588* PP
+
+      7956at3041  86 lqalsllGycllplvvaaivc........rlivv...vawasaasvpfvsaavpaerkalavypvvllyvslgllalv 152
+                     +q+l+llGycl+p++vaaivc        r+ivv   ++was+as+pfv++avpa+r+alav+p+vlly+++g+lal+
+  XP_005846145.1 101 FQSLCLLGYCLFPMDVAAIVCvtvkimlvRWIVVpvmIVWASWASIPFVGGAVPANRRALAVFPLVLLYTAVGWLALI 178
+                     ******************998555555557776444499*************************************97 PP
+
+>> XP_005848718.1  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.2   4.8   3.4e-09   1.7e-05       8     151 ..      67     234 ..      61     235 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 24.2 bits;  conditional E-value: 3.4e-09
+      7956at3041   8 ktlkrdvkriaknlkavlipq..aqalrnWdlwGPlvfvlvlaivlsvgasevfsvvfatvalgavvltvnvlllGg........iiflqalsll 92 
+                     + l  d+  i + ++++l+ +   + + + dl GPl+ + +l+ +  +     f  ++  + +g+++l   +  + g        + ++   +ll
+  XP_005848718.1  67 EELGIDIPAILSRTRSILTFRlaGHDMDHLDLGGPLILMALLGFAHLLVGKMHFGYILGWMVVGSMLLWFVLNSITGsedpeaksLDLYSCTCLL 161
+                     566678888999999988765114678999*********99998877777889*************998777666543444444489******** PP
+
+      7956at3041  93 Gycllplvvaaivcrli............vvvawasaas.vpfvsaa.vpaerkalavypvvllyvslgllal 151
+                     Gy llplv  a+++ ++            v v was ++   fv  + + + ++++ ++p +l+y s++ll+l
+  XP_005848718.1 162 GYALLPLVAHAFLALAVprrsapsmaaggVAVLWASHTAaKLFVRRSpLLDGQHSVVLFPCLLMYASFALLSL 234
+                     *******98776543222222344445558899*997550568876537789999***************987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (152 nodes)
+Target sequences:                         9780  (4456418 residues searched)
+Passed MSV filter:                       324  (0.0331288); expected 195.6 (0.02)
+Passed bias filter:                      182  (0.0186094); expected 195.6 (0.02)
+Passed Vit filter:                        14  (0.00143149); expected 9.8 (0.001)
+Passed Fwd filter:                         2  (0.000204499); expected 0.1 (1e-05)
+Initial search space (Z):               9780  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.32u 0.00s 00:00:00.32 Elapsed: 00:00:00.30
+# Mc/sec: 2257.92
+//
+[ok]

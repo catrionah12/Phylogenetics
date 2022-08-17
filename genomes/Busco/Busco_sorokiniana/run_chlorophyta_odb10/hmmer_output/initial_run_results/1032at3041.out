@@ -1,0 +1,38 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   1   7  3.9e-178  4.5e-175  582.7  24.7     1   300     1   324     1   416 0.87 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   2   7   1.6e-07   0.00018   19.9   0.1   346   381   501   536   478   543 0.87 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   3   7      0.19   2.2e+02   -0.2   5.5   161   189   546   574   540   580 0.87 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   4   7     0.025        29    2.7   0.1   388   417   596   625   579   638 0.83 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   5   7   5.8e-12   6.7e-09   34.5   1.5   427   489   703   764   636   773 0.73 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   6   7     0.011        13    3.9   0.1   474   502   774   805   769   808 0.75 -
+PRW60453.1           -           1489 1032at3041           -            505    8e-187  621.5  67.4   7   7       7.9   9.2e+03   -5.5   1.5   148   177   849   881   824   889 0.55 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   1   7  3.9e-178  4.5e-175  582.7  24.7     1   300     1   324     1   416 0.87 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   2   7   1.6e-07   0.00018   19.9   0.1   346   381   501   536   478   543 0.87 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   3   7      0.19   2.2e+02   -0.2   5.6   161   189   546   574   540   582 0.88 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   4   7     0.025        29    2.7   0.1   388   417   596   625   579   638 0.83 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   5   7   5.9e-12   6.8e-09   34.5   1.5   427   489   703   764   636   773 0.73 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   6   7     0.011        13    3.9   0.1   474   502   774   805   769   808 0.75 -
+PRW60454.1           -           1488 1032at3041           -            505  8.1e-187  621.4  67.4   7   7       7.9   9.2e+03   -5.5   1.5   148   177   849   881   824   889 0.55 -
+PRW20318.1           -           1034 1032at3041           -            505   1.8e-19   69.4  12.9   1   2   4.3e-10   4.9e-07   28.3   2.3     6    73     8    74     5    76 0.92 -
+PRW20318.1           -           1034 1032at3041           -            505   1.8e-19   69.4  12.9   2   2   6.9e-16   7.9e-13   47.5   3.0    21   105    74   158    71   171 0.92 -
+PRW45035.1           -           1358 1032at3041           -            505   3.8e-18   65.0   5.9   1   2   1.7e-12     2e-09   36.2   1.0     8    85   507   585   501   588 0.92 -
+PRW45035.1           -           1358 1032at3041           -            505   3.8e-18   65.0   5.9   2   2   5.9e-12   6.8e-09   34.5   0.7    25    93   576   645   573   662 0.88 -
+PRW20404.1           -            602 1032at3041           -            505     1e-10   40.5   6.1   1   2   8.9e-14     1e-10   40.5   6.1    10   118     7   121     5   130 0.88 -
+PRW20404.1           -            602 1032at3041           -            505     1e-10   40.5   6.1   2   2      0.77   8.9e+02   -2.2   0.0   220   283   188   251   178   272 0.63 -
+PRW20403.1           -            611 1032at3041           -            505   2.4e-10   39.3   7.0   1   2   2.1e-13   2.4e-10   39.3   7.0    10   142     7   142     5   151 0.85 -
+PRW20403.1           -            611 1032at3041           -            505   2.4e-10   39.3   7.0   2   2      0.83   9.6e+02   -2.3   0.0   221   283   198   260   188   281 0.63 -
+PRW56613.1           -            723 1032at3041           -            505   5.8e-09   34.7   2.0   1   1   8.3e-12   9.6e-09   34.0   2.0    10    92    64   147    60   160 0.92 -
+PRW44975.1           -            780 1032at3041           -            505   1.9e-08   33.0   0.2   1   1   2.6e-11     3e-08   32.4   0.2     9    91    23   107    19   119 0.88 -
+PRW61394.1           -            167 1032at3041           -            505     0.019   13.2   0.0   1   1   2.2e-05     0.025   12.8   0.0    61   119    37    98    29   116 0.82 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/1032at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_sorokiniana/run_chlorophyta_odb10/hmmer_output/initial_run_results/1032at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/1032at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_sorokiniana.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 14:28:13 2022
+# [ok]

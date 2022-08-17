@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+KAI3430439.1         -            302 6837at3041           -            179   3.6e-81  270.4  10.3   1   2     9e-69     2e-65  219.1   1.4     1   152    76   253    76   260 0.87 -
+KAI3430439.1         -            302 6837at3041           -            179   3.6e-81  270.4  10.3   2   2   2.5e-18   5.7e-15   54.8   3.5   143   179   261   297   253   297 0.86 -
+KAI3430738.1         -            248 6837at3041           -            179   1.6e-24   85.9   1.5   1   2   1.3e-07   0.00029   19.9   0.0     6    60    67   128    64   157 0.78 -
+KAI3430738.1         -            248 6837at3041           -            179   1.6e-24   85.9   1.5   2   2   1.5e-21   3.3e-18   65.3   0.4    61   134   172   245   157   247 0.93 -
+KAI3424249.1         -            215 6837at3041           -            179      0.13   11.3   1.9   1   2    0.0024       5.4    6.0   0.2   143   165   126   149   106   158 0.65 -
+KAI3424249.1         -            215 6837at3041           -            179      0.13   11.3   1.9   2   2     0.005        11    5.0   0.1   135   152   186   203   162   210 0.72 -
+KAI3428588.1         -            158 6837at3041           -            179      0.81    8.7   9.8   1   2   0.00023      0.52    9.3   2.4   113   157    62   108    47   124 0.79 -
+KAI3428588.1         -            158 6837at3041           -            179      0.81    8.7   9.8   2   2    0.0086        19    4.2   0.8   135   152   130   147   120   154 0.73 -
+KAI3438242.1         -            162 6837at3041           -            179       4.9    6.1   6.7   1   2     0.006        13    4.7   2.2   133   153    90   110    42   127 0.74 -
+KAI3438242.1         -            162 6837at3041           -            179       4.9    6.1   6.7   2   2     0.011        24    3.8   1.5   146   171   118   143   110   150 0.83 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/6837at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_vulgaris/run_chlorophyta_odb10/hmmer_output/initial_run_results/6837at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/6837at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/chlorella_vulgaris.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:39:58 2022
+# [ok]

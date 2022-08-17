@@ -1,0 +1,6 @@
+	a99_genome_proteins	c_sorokiniana_genome_proteins	c_variabilis_genome_proteins	c_vulgaris_genome_proteins	m_conductrix_genome_proteins
+a99_genome_proteins	0.0	4667.0	5123.0	5272.0	4597.0
+c_sorokiniana_genome_proteins	4667.0	0.0	5415.0	5730.0	5137.0
+c_variabilis_genome_proteins	5123.0	5415.0	0.0	6706.0	5308.0
+c_vulgaris_genome_proteins	5272.0	5730.0	6706.0	0.0	5595.0
+m_conductrix_genome_proteins	4597.0	5137.0	5308.0	5595.0	0.0

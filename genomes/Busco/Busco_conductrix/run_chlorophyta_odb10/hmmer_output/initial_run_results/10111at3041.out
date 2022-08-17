@@ -1,0 +1,33 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+PSC69577.1           -            305 10111at3041          -            158   3.6e-63  211.4  21.5   1   1   1.5e-64     9e-62  206.9  21.5     4   145    45   218    38   233 0.79 -
+PSC70663.1           -            135 10111at3041          -            158   2.2e-11   43.2   0.0   1   1   4.1e-14   2.5e-11   43.0   0.0    36   122    26   113    19   134 0.79 -
+PSC72333.1           -            266 10111at3041          -            158     3e-11   42.7   0.1   1   2   5.1e-14     3e-11   42.7   0.1    36   126    14   104     7   163 0.80 -
+PSC72333.1           -            266 10111at3041          -            158     3e-11   42.7   0.1   2   2       2.5   1.5e+03   -1.7  10.0   112   150   176   215   168   227 0.45 -
+PSC76788.1           -            258 10111at3041          -            158   5.1e-08   32.2   1.1   1   2      0.25   1.5e+02    1.5   1.6   111   144    49    82    45    99 0.47 -
+PSC76788.1           -            258 10111at3041          -            158   5.1e-08   32.2   1.1   2   2   8.6e-11   5.1e-08   32.2   1.1    33    97   107   171   105   254 0.74 -
+PSC69436.1           -            105 10111at3041          -            158     0.012   14.8   0.0   1   1   2.5e-05     0.015   14.5   0.0    32    95    26    89    16   100 0.89 -
+PSC72098.1           -            127 10111at3041          -            158     0.042   13.0   0.0   1   1   8.3e-05     0.049   12.8   0.0    31    91    23    83     8   100 0.84 Micractinium conductrix strain SAG 241.80 contig_11, whole genome shotgun sequence.
+PSC71088.1           -            127 10111at3041          -            158     0.047   12.9   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_16, whole genome shotgun sequence.
+PSC71104.1           -            127 10111at3041          -            158     0.047   12.9   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_16, whole genome shotgun sequence.
+PSC71167.1           -            127 10111at3041          -            158     0.047   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_16, whole genome shotgun sequence.
+PSC72080.1           -            127 10111at3041          -            158     0.047   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_11, whole genome shotgun sequence.
+PSC72168.1           -            127 10111at3041          -            158     0.047   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_11, whole genome shotgun sequence.
+PSC72210.1           -            127 10111at3041          -            158     0.047   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_11, whole genome shotgun sequence.
+PSC68321.1           -            127 10111at3041          -            158     0.048   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_38, whole genome shotgun sequence.
+PSC68329.1           -            127 10111at3041          -            158     0.048   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_38, whole genome shotgun sequence.
+PSC71227.1           -            127 10111at3041          -            158     0.048   12.8   0.0   1   1   9.4e-05     0.056   12.6   0.0    32    91    24    83     9   100 0.85 Micractinium conductrix strain SAG 241.80 contig_15, whole genome shotgun sequence.
+PSC70901.1           -            174 10111at3041          -            158      0.29   10.3   7.3   1   2       3.6   2.1e+03   -2.3   0.0    32    44    26    38    23    47 0.86 -
+PSC70901.1           -            174 10111at3041          -            158      0.29   10.3   7.3   2   2   0.00031      0.19   10.9   5.1    54   146    61   159    53   171 0.56 -
+PSC71651.1           -            245 10111at3041          -            158       1.1    8.4  15.5   1   1     0.063        37    3.4  15.5    51   126    25   134     6   230 0.71 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10111at3041.hmm
+# Target file:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta
+# Option settings: hmmsearch --domtblout /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/Busco_conductrix/run_chlorophyta_odb10/hmmer_output/initial_run_results/10111at3041.out --cpu 1 /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/busco_downloads/lineages/chlorophyta_odb10/hmms/10111at3041.hmm /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco/data/micractinium_conductrix.prot.fasta 
+# Current dir:     /Users/catrionaharrison/Documents/Bioinformatics/rp2/Data/genomes/busco
+# Date:            Fri Jul 22 15:12:15 2022
+# [ok]
