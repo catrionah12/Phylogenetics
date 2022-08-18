@@ -2,11 +2,13 @@
 
 ## Requirements
 
-To run the pipelines, ETE Toolkit and mafft must be installed.
+To run the pipelines, ETE Toolkit and entrez-direct must be installed.
 
 This can be done using conda:
 
-    conda install -c bioconda mafft 
+    conda create -n phylogeny python=3.6
+
+    conda install -c bioconda entrez-direct
 
     conda install -c etetoolkit ete3 ete_toolchain
 
@@ -51,6 +53,10 @@ to set the foreground branch to *M. conductrix*, or:
 
     ./dnds.sh cvar
 to set the foreground branch to *C. variabilis*.
+
+## General genome statistics
+
+- genome_statistics.R can be used to produce graphs showing general statistics about the 5 *Chlorella* genomes
     
 
 
