@@ -14,7 +14,7 @@ done<../phylogeny/data/accession_numbers/"$1"accession_numbers.txt
 
 while read species ITS
 do
-esearch -db nuccore -query "$ITS" | efetch -format fasta | sed "s/>.*$/>$species /" >> ../phylogeny/data/fasta_files/ITS"$1".fasta; 
+../external/edirect/esearch -db nuccore -query "$ITS" | ../external/edirect/efetch -format fasta | sed "s/>.*$/>$species /" >> ../phylogeny/data/fasta_files/ITS"$1".fasta; 
 done<../phylogeny/data/accession_numbers/ncbi_accession_numbers.txt
 
 #Extra sequences

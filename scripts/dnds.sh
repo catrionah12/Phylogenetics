@@ -23,7 +23,7 @@ done
 
 cd ../ids
 
-for file in *.txt
+for file in OG*.txt
 do
 	../../../external/pal2nal.pl ../evoltree/aln_"$file"_prot.fasta ../evoltree/"$file".fasta -output paml > ../evoltree/codon_aln/aln_"$file".paml
 	rm ../evoltree/"$file"_prot.fasta

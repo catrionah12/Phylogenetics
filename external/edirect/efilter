@@ -1,0 +1,142 @@
+#!/bin/bash
+
+# Public domain notice for all NCBI EDirect scripts is located at:
+# https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Public_Domain_Notice
+
+pth=$( dirname "$0" )
+
+case "$pth" in
+  /* )
+    ;; # already absolute
+  *  )
+    pth=$(cd "$pth" && pwd)
+    ;;
+esac
+
+case ":$PATH:" in
+  *:"$pth":* )
+    ;;
+  * )
+    PATH="$PATH:$pth"
+    export PATH
+    ;;
+esac
+
+# check for PubMed preview server
+
+preview=false
+
+case "${EDIRECT_PREVIEW}" in
+  "" | [FfNn]* | 0 | [Oo][Ff][Ff] )
+    ;;
+  * )
+    preview=true
+    ;;
+esac
+
+# normally pass -filter plus all arguments to esearch
+
+if [ "$preview" = false ]
+then
+  esearch -filter "$@"
+  exit 0
+fi
+
+# save original arguments
+
+rgs=( "$@" )
+
+# handle common flags - dot command is equivalent of "source"
+
+if [ ! -f "$pth"/ecommon.sh ]
+then
+  echo "ERROR: Unable to find '$pth/ecommon.sh' file" >&2
+  exit 1
+fi
+
+. "$pth"/ecommon.sh
+
+# assume ENTREZ_DIRECT message, possibly with instantiated UIDs
+
+ParseStdin
+
+# process -help and -version commands
+
+for rg in "$@"
+do
+  case "$rg" in
+    -h | -help | --help | help | -version )
+      esearch -filter "$@"
+      exit 0
+      ;;
+  esac
+done
+
+# check for missing required arguments
+
+if [ -z "$dbase" ]
+then
+  echo "${INVT} ERROR: ${LOUD} Missing -db argument${INIT}" >&2
+  exit 1
+fi
+
+# check for input via history
+
+if [ -z "$ids$rest$qury$input" ]
+then
+  WriteEDirect "$dbase" "$web_env" "$qry_key" "$num" "$stp" "$err" |
+  esearch -filter "${rgs[@]}"
+  exit 0
+fi
+
+# special case for PubMed with new SOLR server
+
+DoOneFilter() {
+
+  uis="$1"
+  echo "$uis" |
+  epost -db "$dbase" |
+  esearch -filter "${rgs[@]}" |
+  efetch -format uid
+}
+
+FilterNewPubmed() {
+
+  GenerateUidList "$dbase" |
+  join-into-groups-of 500 |
+  while read uids
+  do
+    DoOneFilter "$uids"
+  done |
+  sort -V | uniq -i | grep '.'
+}
+
+if [ "$preview" = true ]
+then
+  flt=""
+  num="0"
+  raw=$( FilterNewPubmed )
+  if [ -n "$raw" ]
+  then
+    flt=$( echo "$raw" | sed -e 's/^/  <Id>/' -e 's/$/<\/Id>/' )
+    num=$( echo "$raw" | wc -l | tr -d ' ' )
+  fi
+
+  # create -format xids output
+  echo "<ENTREZ_DIRECT>"
+  if [ -n "$target" ]
+  then
+    echo "  <Db>${dbase}</Db>"
+  fi
+  if [ -n "$num" ]
+  then
+    echo "  <Count>${num}</Count>"
+  fi
+  if [ -n "$flt" ]
+  then
+    echo "$flt"
+  fi
+  echo "</ENTREZ_DIRECT>"
+
+  exit 0
+fi

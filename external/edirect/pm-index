@@ -1,0 +1,56 @@
+#!/bin/sh
+
+# Public domain notice for all NCBI EDirect scripts is located at:
+# https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Public_Domain_Notice
+
+if [ "$#" -eq 0 ]
+then
+  echo "Must supply path for indexed files"
+  exit 1
+fi
+
+target="$1"
+shift
+
+target=${target%/}
+
+if [ "$#" -eq 0 ]
+then
+  echo "Must supply path for extras files"
+  exit 1
+fi
+
+extras="$1"
+shift
+
+extras=${extras%/}
+
+xtras="false"
+
+if [ "$#" -gt 0 ]
+then
+  xtras="$1"
+  shift
+fi
+
+find "$target" -name "*.e2x" -delete
+find "$target" -name "*.e2x.gz" -delete
+
+for fl in *.xml.gz
+do
+  base=${fl%.xml.gz}
+  echo "$base.e2x"
+  if [ -s "$extras/meshtree.txt" ]
+  then
+    gunzip -c "$fl" |
+    rchive -transform "$extras/meshtree.txt" -e2index "$xtras" |
+    transmute -format |
+    gzip -1 > "$target/$base.e2x.gz"
+  else
+    gunzip -c "$fl" |
+    rchive -e2index "$xtras" |
+    transmute -format |
+    gzip -1 > "$target/$base.e2x.gz"
+  fi
+  sleep 1
+done

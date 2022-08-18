@@ -1,0 +1,482 @@
+#!/bin/bash
+
+# Public domain notice for all NCBI EDirect scripts is located at:
+# https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Public_Domain_Notice
+
+total_start=$(date "+%s")
+
+pma2pme=false
+e2invert=false
+fullIndex=false
+internal=false
+clean=false
+clear=false
+scrub=false
+
+while [ $# -gt 0 ]
+do
+  case "$1" in
+    pma2pme | -pma2pme | asn | -asn | asn1 | -asn1 | asn.1 | -asn.1 )
+      pma2pme=true
+      shift
+      ;;
+    daily | -daily )
+      e2invert=true
+      shift
+      ;;
+    index | -index | reindex | -reindex )
+      e2invert=true
+      fullIndex=true
+      shift
+      ;;
+    clean | -clean )
+      # delete Archive/Inverted folder contents
+      clean=true
+      shift
+      ;;
+    clear | -clear )
+      # delete Archive incremental indices
+      clear=true
+      # as well as Archive/Inverted folder files
+      clean=true
+      shift
+      ;;
+    scrub | -scrub )
+      # delete non-extra Postings directories
+      scrub=true
+      # and Archive incremental indices
+      clear=true
+      # and Archive/Inverted folder files
+      clean=true
+      shift
+      ;;
+    -internal | -int )
+      internal=true
+      shift
+      ;;
+    * )
+      break
+      ;;
+  esac
+done
+
+while [ $# -gt 0 ]
+do
+  case "$1" in
+    -path )
+      shift
+      ;;
+    -* )
+      exec >&2
+      echo "$0: Unrecognized option $1"
+      exit 1
+      ;;
+    * )
+      break
+      ;;
+  esac
+done
+
+if [ "$#" -gt 0 ]
+then
+  target="$1"
+  if [ ! -d "$target" ]
+  then
+    echo "Unable to find '$target' path"
+    exit 1
+  fi
+  MASTER=$(cd "$target" && pwd)
+  CONFIG=${MASTER}
+  shift
+else
+  if [ -z "${EDIRECT_PUBMED_MASTER}" ]
+  then
+    echo "Must supply path to master archive area or set EDIRECT_PUBMED_MASTER environment variable"
+    exit 1
+  else
+    MASTER="${EDIRECT_PUBMED_MASTER}"
+    MASTER=${MASTER%/}
+    if [ ! -d "${MASTER}" ]
+    then
+      echo "Unable to find '$MASTER' path"
+      exit 1
+    fi
+  fi
+fi
+
+while [ $# -gt 0 ]
+do
+  case "$1" in
+    -temp | -work | -working )
+      shift
+      ;;
+    -* )
+      exec >&2
+      echo "$0: Unrecognized option $1"
+      exit 1
+      ;;
+    * )
+      break
+      ;;
+  esac
+done
+
+if [ "$#" -gt 0 ]
+then
+  working="$1"
+  if [ ! -d "$working" ]
+  then
+    echo "Unable to find '$working' path"
+    exit 1
+  fi
+  WORKING=$(cd "$working" && pwd)
+  shift
+else
+  if [ -z "${EDIRECT_PUBMED_WORKING}" ]
+  then
+    WORKING=${MASTER}
+  else
+    WORKING="${EDIRECT_PUBMED_WORKING}"
+    WORKING=${WORKING%/}
+  fi
+  if [ ! -d "${WORKING}" ]
+  then
+    echo "Unable to find '$WORKING' path"
+    exit 1
+  fi
+fi
+
+echo "MASTER $MASTER"
+
+echo "WORKING $WORKING"
+
+for dir in Archive Data Postings Archive/Inverted
+do
+  mkdir -p "$MASTER/$dir"
+done
+
+for dir in Current Extras Indexed Inverted Merged Pubmed
+do
+  mkdir -p "$WORKING/$dir"
+done
+
+pm-prepare "$MASTER" "$WORKING"
+
+date
+
+DWN=0
+DEL=0
+SCB=0
+POP=0
+IDX=0
+COL=0
+MRG=0
+PST=0
+
+seconds_start=$(date "+%s")
+cd "$WORKING/Pubmed"
+if [ "$internal" = true ]
+then
+  echo "Will Use Direct Access To PubMed Files On FTP Site"
+else
+  echo "Downloading PubMed Files"
+  download-pubmed baseline updatefiles
+fi
+echo "Downloading MeSH Tree"
+cd "$WORKING/Extras"
+download-ncbi-data meshtree
+echo "Downloading GeneRIFs"
+download-ncbi-data generifs
+echo "Downloading TaxNames"
+download-ncbi-data taxnames
+for fl in meshtree.txt meshname.txt genename.txt taxnames.txt meshconv.xml geneconv.xml chemconv.xml diszconv.xml
+do
+  if [ ! -f "$MASTER/Data/$fl" ] && [ -f "$WORKING/Extras/$fl" ]
+  then
+    cp "$WORKING/Extras/$fl" "$MASTER/Data/$fl"
+  fi
+done
+seconds_end=$(date "+%s")
+seconds=$((seconds_end - seconds_start))
+DWN=$seconds
+echo "$DWN seconds"
+sleep 1
+
+if [ "$fullIndex" = true ]
+then
+  echo "Removing Previous Indices"
+  cd "$WORKING/Indexed"
+  target="$WORKING/Indexed"
+  find "$target" -name "*.e2x" -delete
+  find "$target" -name "*.e2x.gz" -delete
+  cd "$WORKING/Merged"
+  target="$WORKING/Merged"
+  find "$target" -name "*.mrg" -delete
+  find "$target" -name "*.mrg.gz" -delete
+  echo ""
+  sleep 1
+fi
+
+if [ "$clean" = true ]
+then
+  cd "$MASTER/Archive/Inverted"
+  target="$MASTER/Archive/Inverted"
+  find "$target" -name "*.inv" -delete
+  find "$target" -name "*.inv.gz" -delete
+fi
+
+if [ "$clear" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Deleting Incremental Indices"
+  rchive -e2delete "$MASTER/Archive"
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  DEL=$seconds
+  echo "$DEL seconds"
+  echo ""
+  sleep 1
+fi
+
+RemoveSubs() {
+
+  dir="$1"
+
+  for sub in {a..z} {0..9}
+  do
+    rm -rf "${dir}/${sub}" &
+  done
+}
+
+RemovePosts() {
+
+  for dir in AUTH CSRT FAUT INVR JOUR \
+             LAUT MESH PAIR TIAB TITL
+  do
+    RemoveSubs "$dir"
+  done
+
+  for dir in ANUM AUTH CODE CSRT FAUT \
+             INVR ISS JOUR LANG LAUT \
+             MESH PAGE PAIR PROP SUBH \
+             TIAB TITL TREE VOL YEAR
+  do
+    rm -rf "$dir" &
+  done
+
+  wait
+}
+
+if [ "$scrub" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Clearing Postings Folders"
+  cd "$MASTER/Postings"
+  RemovePosts
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  SCB=$seconds
+  echo "$SCB seconds"
+  echo ""
+  sleep 1
+fi
+
+InternalStash() {
+
+  dir="$1"
+
+  ls -1 "/am/ftp-pubmed/${dir}" |
+  grep -v ".md5" | grep "xml.gz" |
+  while read fl
+  do
+    base=${fl%.xml.gz}
+    # skip if sentinel is present
+    if [ -f "$base.snt" ]
+    then
+      continue
+    fi
+    single_start=$(date "+%s")
+    # copy one file at a time from ftp site
+    cp "/am/ftp-pubmed/${dir}/${fl}" .
+    # process local copy, creating sentinel file
+    if [ "$pma2pme" = true ]
+    then
+      echo "$fl" |
+      pm-stash -pma2pme "$MASTER/Archive" "$MASTER/Archive/Inverted"
+    else
+      echo "$fl" |
+      pm-stash "$MASTER/Archive" "$MASTER/Archive/Inverted"
+    fi
+    # remove local copy of release file
+    rm "$fl"
+    single_end=$(date "+%s")
+    single=$((single_end - single_start))
+    # print time to process individual file
+    echo "$single seconds"
+  done
+}
+
+seconds_start=$(date "+%s")
+echo "Populating PubMed Archive"
+cd "$WORKING/Pubmed"
+if [ "$internal" = true ]
+then
+  InternalStash "baseline"
+  InternalStash "updatefiles"
+else
+  for fl in *.xml.gz
+  do
+    base=${fl%.xml.gz}
+    if [ -f "$base.snt" ]
+    then
+      continue
+    fi
+    if [ "$pma2pme" = true ]
+    then
+      echo "$fl" |
+      pm-stash -pma2pme "$MASTER/Archive" "$MASTER/Archive/Inverted"
+    else
+      echo "$fl" |
+      pm-stash "$MASTER/Archive" "$MASTER/Archive/Inverted"
+    fi
+  done
+fi
+echo "Refreshing Versioned Records"
+pm-refresh "$MASTER/Archive"
+seconds_end=$(date "+%s")
+seconds=$((seconds_end - seconds_start))
+POP=$seconds
+echo "$POP seconds"
+sleep 1
+
+echo ""
+
+echo 18810966 |
+fetch-pubmed -path "$MASTER/Archive" |
+xtract -pattern Author -if Affiliation -contains Medicine \
+  -pfx "Archive is " -element Initials
+
+echo ""
+
+if [ "$e2invert" = true ] || [ "$fullIndex" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Incremental Indexing"
+  rchive -e2invert "$MASTER/Archive" -transform "$MASTER/Data/meshtree.txt" -e2index
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  IDX=$seconds
+  echo "IDX $IDX seconds"
+  echo ""
+  sleep 1
+fi
+
+if [ "$fullIndex" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Collecting Cached Indices"
+  rchive -e2join "$MASTER/Archive" "$MASTER/Archive/Inverted"
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  COL=$seconds
+  echo "COL $COL seconds"
+  echo ""
+  sleep 1
+fi
+
+if [ "$fullIndex" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Merging Inverted Indices"
+  cd "$MASTER/Archive/Inverted"
+  pm-merge "$WORKING/Merged"
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  MRG=$seconds
+  echo "MRG $MRG seconds"
+  echo ""
+  sleep 1
+  if [ ! -f "$WORKING/Merged/zz.mrg.gz" ]
+  then
+    echo "ERROR: Merge failed to complete - missing zz.mrg.gz file"
+    echo ""
+    echo "EXITING DUE TO BUILD FAILURE"
+    echo ""
+    fullIndex=false
+  fi
+fi
+
+if [ "$fullIndex" = true ]
+then
+  seconds_start=$(date "+%s")
+  echo "Producing Postings Files"
+  cd "$WORKING/Merged"
+  pm-promote "$MASTER/Postings" "$xtras"
+  seconds_end=$(date "+%s")
+  seconds=$((seconds_end - seconds_start))
+  PST=$seconds
+  echo "PST $PST seconds"
+  echo ""
+  sleep 1
+fi
+
+if [ "$fullIndex" = true ]
+then
+  phrase-search -path "$MASTER/Postings" -query "mapping of spatio-temporal pollution status [TIAB] AND 2008 [YEAR]" |
+  fetch-pubmed -path "$MASTER/Archive" |
+  xtract -pattern Author -if Affiliation -contains Medicine \
+    -pfx "Archive and Index are " -element Initials
+  echo ""
+fi
+
+echo "ARCHIVE-PUBMED"
+
+echo ""
+
+echo "DWN $DWN seconds"
+if [ "$clear" = true ]
+then
+  echo "DEL $DEL seconds"
+fi
+if [ "$scrub" = true ]
+then
+  echo "SCB $SCB seconds"
+fi
+echo "POP $POP seconds"
+if [ "$e2invert" = true ] || [ "$fullIndex" = true ]
+then
+  echo "IDX $IDX seconds"
+fi
+if [ "$fullIndex" = true ]
+then
+  echo "COL $COL seconds"
+  echo "MRG $MRG seconds"
+  echo "PST $PST seconds"
+fi
+
+echo ""
+
+total_end=$(date "+%s")
+total=$((total_end - total_start))
+TOT=$total
+echo "TOT $TOT seconds"
+echo ""
+
+date
+
+if [ -n "$CONFIG" ]
+then
+  target=bash_profile
+  if ! grep "$target" "$HOME/.bashrc" >/dev/null 2>&1
+  then
+    if [ ! -f $HOME/.$target ] || grep 'bashrc' "$HOME/.$target" >/dev/null 2>&1
+    then
+      target=bashrc
+    fi
+  fi
+  echo ""
+  echo "For convenience, please execute the following to save the archive path to a variable:"
+  echo ""
+  echo "  echo \"export EDIRECT_PUBMED_MASTER='${CONFIG}'\" >>" "\$HOME/.$target"
+  echo ""
+fi

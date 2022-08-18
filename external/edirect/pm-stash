@@ -1,0 +1,196 @@
+#!/bin/sh
+
+# Public domain notice for all NCBI EDirect scripts is located at:
+# https://www.ncbi.nlm.nih.gov/books/NBK179288/#chapter6.Public_Domain_Notice
+
+pma2pme=false
+
+while [ $# -gt 0 ]
+do
+  case "$1" in
+    pma2pme | -pma2pme | asn | -asn | asn1 | -asn1 | asn.1 | -asn.1 )
+      pma2pme=true
+      shift
+      ;;
+    * )
+      break
+      ;;
+  esac
+done
+
+if [ "$#" -eq 0 ]
+then
+  echo "Must supply path to archive files"
+  exit 1
+fi
+
+archive="$1"
+shift
+
+native="$archive"
+
+invert=""
+if [ "$#" -gt 0 ]
+then
+  invert="$1"
+  shift
+fi
+
+osname=`uname -s | sed -e 's/_NT-.*$/_NT/; s/^MINGW[0-9]*/CYGWIN/'`
+if [ "$osname" = "CYGWIN_NT" -a -x /bin/cygpath ]
+then
+  archive=`cygpath -w "$archive"`
+  if [ -n "$invert" ]
+  then
+    invert=`cygpath -w "$invert"`
+  fi
+fi
+
+archive=${archive%/}
+native=${native%/}
+
+if [ -n "$invert" ]
+then
+  invert=${invert%/}
+fi
+
+deleteCitations() {
+  inp="$1"
+  pmidlist=.TO-REPORT
+  delenda=.TO-DELETE
+  delasn=.TO-DELASN
+  delinv=.TO-DELINV
+  freeinv=.TO-FREEINV
+  cat "$inp" |
+  xtract -pattern DeleteCitation -block PMID -tab "\n" -sep "." -element "PMID" |
+  sort -n | uniq > $pmidlist
+  cat "$pmidlist" |
+  rchive -trie -gzip |
+  sort -n | uniq > $delenda
+  if [ -s $delenda ]
+  then
+    (cd "$native" && xargs rm -f) < $delenda
+    cat "$delenda" | sed -e 's/xml/asn/g' > $delasn
+    if [ -s $delasn ]
+    then
+      (cd "$native" && xargs rm -f) < $delasn
+    fi
+  fi
+  cat "$delenda" |
+  while read pm
+  do
+    dr=$( echo "$pm" | cut -c 1-8 )
+    fl=$( echo "$dr" | cut -c 1-2,4-5,7-8 )
+    echo "${dr}/${fl}.inv.gz"
+  done |
+  sort -n | uniq > $delinv
+  if [ -s $delinv ]
+  then
+    (cd "$native" && xargs rm -f) < $delinv
+  fi
+  if [ -s $pmidlist ]
+  then
+    cat "$pmidlist" >> "$native/deleted.uid"
+  fi
+  cat "$pmidlist" |
+  rchive -padz |
+  cut -c 1-4 | sort -n | uniq |
+  print-columns '1 + int($1/25)' |
+  sort -n | uniq > $freeinv
+  cat "$inp" |
+  xtract -pattern PubmedArticle -element MedlineCitation/PMID |
+  rchive -padz |
+  cut -c 1-4 | sort -n | uniq |
+  print-columns '1 + int($1/25)' |
+  sort -n | uniq >> $freeinv
+  if [ -s $freeinv ] && [ -n "$invert" ]
+  then
+    cat $freeinv |
+    sort -n | uniq |
+    while read num
+    do
+      lth="${#num}"
+      if [ $lth -eq 1 ]
+      then
+        rm -f "$invert/pubmed00${num}.inv.gz"
+      elif [ $lth -eq 2 ]
+      then
+        rm -f "$invert/pubmed0${num}.inv.gz"
+      elif [ $lth -eq 3 ]
+      then
+        rm -f "$invert/pubmed${num}.inv.gz"
+      fi
+    done
+  fi
+  rm -f $pmidlist
+  rm -f $delenda
+  rm -f $delasn
+  rm -f $delinv
+  rm -f $freeinv
+}
+
+reportVersioned() {
+  inp="$1"
+  pmidlist=.TO-REPORT
+  xtract -input "$inp" -pattern PubmedArticle \
+    -block MedlineCitation/PMID -if "@Version" -gt 1 -element "PMID" < /dev/null |
+  sort -n | uniq > $pmidlist
+  if [ -s $pmidlist ]
+  then
+    cat "$pmidlist" >> "$native/versioned.uid"
+  fi
+  rm $pmidlist
+}
+
+rm -f "versioned.xml.gz"
+rm -f "versioned.snt"
+
+needToReport=true
+timeout=100
+if [ "$pma2pme" = true ]
+then
+  timeout=200
+fi
+
+while read fl
+do
+  base=${fl%.xml.gz}
+  if [ -f "$base.snt" ]
+  then
+    continue
+  fi
+  secnds_start=$(date "+%s")
+  echo "$base.xml"
+  gunzip -c "$fl" |
+  transmute -strict -normalize pubmed |
+  transmute -compress -strict -wrp PubmedArticleSet \
+    -pattern "PubmedArticleSet/*" -format flush > "$base.xml"
+  rchive -gzip -input "$base.xml" -archive "$archive" \
+    -index MedlineCitation/PMID^Version -pattern PubmedArticle < /dev/null
+  if [ "$pma2pme" = true ]
+  then
+    cat "$base.xml" | pma2pme -xml > "$base.asn"
+    rchive -asn -gzip -input "$base.asn" -archive "$archive" \
+      -index Pubmed-entry/pmid_ -pattern Pubmed-entry < /dev/null
+    rm "$base.asn"
+  fi
+  deleteCitations "$base.xml"
+  reportVersioned "$base.xml"
+  touch "$base.snt"
+  rm "$base.xml"
+  secnds_end=$(date "+%s")
+  secnds=$((secnds_end - secnds_start))
+  if [ "$needToReport" = true ]
+  then
+    if [ "$secnds" -gt "$timeout" ]
+    then
+      echo ""
+      echo "ARCHIVING IS SLOWER THAN EXPECTED."
+      echo ""
+      echo "PLEASE ENSURE THAT ANTIVIRUS SCANNING AND CONTENT INDEXING ARE DISABLED,"
+      echo "AND THAT TRIM SUPPORT IS ENABLED FOR THE SOLID STATE DRIVE."
+      echo ""
+      needToReport=false
+    fi
+  fi
+done
