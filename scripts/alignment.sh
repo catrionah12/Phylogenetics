@@ -7,5 +7,6 @@ done
 cd ../../temp
 for file in aln*.fasta
 do
-	java -jar ../../external/BMGE/BMGE.jar -i "$file" -t DNA -of filtered_"$file" -oh filtered_"$file".html -g 0.1 -on filtered_"$file".nexus
+	java -jar ../../external/BMGE/BMGE.jar -i "$file" -t DNA -of filtered_"$file" -oh filtered_"$file".html -g 0.16 -on filtered_"$file".nex
+	sed "s/TIDE/TIDE\ GAP=-/" filtered_"$file".nex > filtered_"$file".nexus
 done
