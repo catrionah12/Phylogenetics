@@ -40,6 +40,8 @@ To produce a more in-depth Maximum Likelihood tree of symbiotic Chlorella, inste
 
 ### dN/dS ratio calculation for single-copy orthologues in a pathway
 
+- This will only work if pathways.R is run first
+
 To compare the free-branch model to the M0 model with *C. sp.* A99 set as the foreground branch, run:
 
     ./dnds.sh
