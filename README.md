@@ -2,13 +2,11 @@
 
 ## Requirements
 
-To run the pipelines, ETE Toolkit and entrez-direct must be installed.
+To run the pipelines, ETE Toolkit must be installed.
 
 This can be done using conda:
 
     conda create -n phylogeny python=3.6
-
-    conda install -c bioconda entrez-direct
 
     conda install -c etetoolkit ete3 ete_toolchain
 
