@@ -1,5 +1,3 @@
-#! /bin/bash
-
 cd ../genomes/evolution_rates/ids
 
 for file in OG*txt
@@ -20,7 +18,7 @@ cd ../evoltree
 
 for file in *prot.fasta
 do
-	mafft --auto "$file" > aln_"$file"
+	../../../external/mafft-mac/mafft.bat --auto "$file" > aln_"$file"
 done
 
 cd ../ids
