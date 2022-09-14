@@ -1,0 +1,1 @@
+((oneline_c_sorokiniana_genome_proteins_PRW59332.1:0.0744995,oneline_m_conductrix_genome_proteins_PSC73236.1:0.0460025)n1:0.00197112,((oneline_c_vulgaris_genome_proteins_KAI3438894.1:0.083928,oneline_c_variabilis_genome_proteins_XP_005849940.1:0.079756)n3:0.0113676,oneline_A99_genome_proteins_scaffold5.g799.t1:0.88675)n2:0.00197112)n0;

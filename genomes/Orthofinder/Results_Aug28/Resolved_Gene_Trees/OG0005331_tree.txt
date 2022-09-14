@@ -1,0 +1,1 @@
+(oneline_m_conductrix_genome_proteins_PSC70341.1:0.429241,(((oneline_c_sorokiniana_genome_proteins_PRW33130.1:0.500686,oneline_c_sorokiniana_genome_proteins_PRW33587.1:0.843803)n3:0.0662662,oneline_c_sorokiniana_genome_proteins_PRW33131.1:0.77487)n2:0.152507,oneline_c_sorokiniana_genome_proteins_PRW33268.1:0.655326)n1:0.429241)n0;

@@ -1,0 +1,6 @@
+	oneline_A99_genome_proteins	oneline_c_sorokiniana_genome_proteins	oneline_c_variabilis_genome_proteins	oneline_c_vulgaris_genome_proteins	oneline_m_conductrix_genome_proteins
+oneline_A99_genome_proteins	0.0	4667.0	5117.0	5260.0	4591.0
+oneline_c_sorokiniana_genome_proteins	4667.0	0.0	5407.0	5728.0	5129.0
+oneline_c_variabilis_genome_proteins	5117.0	5407.0	0.0	6631.0	5307.0
+oneline_c_vulgaris_genome_proteins	5260.0	5728.0	6631.0	0.0	5601.0
+oneline_m_conductrix_genome_proteins	4591.0	5129.0	5307.0	5601.0	0.0

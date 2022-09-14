@@ -1,0 +1,5 @@
+0: oneline_A99_genome_proteins.faa
+1: oneline_c_sorokiniana_genome_proteins.faa
+2: oneline_c_variabilis_genome_proteins.faa
+3: oneline_c_vulgaris_genome_proteins.faa
+4: oneline_m_conductrix_genome_proteins.faa

@@ -25,7 +25,7 @@ annotations <- rbind(a99_annotations, vulgaris_annotations, conductrix_annotatio
 annotations <- data.frame(annotations$X.query, annotations$EC, annotations$KEGG_Pathway, annotations$BRITE)
 
 #Read in file for orthogroups in each species 
-orthogroups <- read.csv('../../../OrthoFinder/Results_Aug14/Orthogroups/Orthogroups.tsv', sep = '\t')
+orthogroups <- read.csv('../../../OrthoFinder/Results_Aug28/Orthogroups/Orthogroups.tsv', sep = '\t')
 
 # Label OGs from each species with KEGG pathways and EC numbers
 annotated_ogs = data.frame()
@@ -36,8 +36,10 @@ for (i in 2:6) {
   complete_og_genes <- trimmed_genes[!trimmed_genes$orthogroups...i.=="", ]
   colnames(complete_og_genes) <- c('orthogroup', 'protein_name')
   annotated_og_species <- merge(complete_og_genes, annotations,  by.x = 'protein_name', by.y = 'annotations.X.query')
-  annotated_ogs <- unique(rbind(annotated_ogs, annotated_og_species[-c(1)]))
+  annotated_ogs <- rbind(annotated_ogs, annotated_og_species[-c(1)])
 }
+annotated_ogs = unique(annotated_ogs)
+
 colnames(annotated_ogs) = c('Orthogroup', 'EC', 'KEGG_pathway', 'KEGG_BRITE')
 
 # Get orthogroups annotated with chosen pathway
@@ -47,7 +49,7 @@ colnames(pathway_ogs) <- c("Orthogroup", "EC")
 pathway_ogs <- pathway_ogs %>% arrange(EC)
 
 #Read in number of genes per species for each orthogroup
-gene_count <- read.csv('../../../OrthoFinder/Results_Aug14/Orthogroups/Orthogroups.GeneCount.tsv', sep = '\t')
+gene_count <- read.csv('../../../OrthoFinder/Results_Aug28/Orthogroups/Orthogroups.GeneCount.tsv', sep = '\t')
 
 #Get number of genes for each orthogroup in the pathway
 pathway_counts <- merge(pathway_ogs, gene_count, by = 'Orthogroup')

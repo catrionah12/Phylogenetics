@@ -1,0 +1,1 @@
+(((oneline_c_vulgaris_genome_proteins_KAI3436072.1:0.0618686,oneline_c_variabilis_genome_proteins_XP_005845492.1:0.0676074)n2:0.0257056,oneline_A99_genome_proteins_scaffold3.g6551.t1:0.203384)n1:0.00268156,(oneline_m_conductrix_genome_proteins_PSC76230.1:0.0702926,oneline_c_sorokiniana_genome_proteins_PRW60165.1:0.103588)n3:0.00268156)n0;

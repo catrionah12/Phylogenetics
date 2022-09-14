@@ -1,0 +1,1 @@
+(oneline_m_conductrix_genome_proteins_PSC76449.1:0.680139,(oneline_c_variabilis_genome_proteins_XP_005845423.1:1.25036,((oneline_c_variabilis_genome_proteins_XP_005848847.1:0.60291,oneline_c_variabilis_genome_proteins_XP_005848642.1:0.840969)n3:0.0289893,oneline_c_variabilis_genome_proteins_XP_005852128.1:0.76944)n2:0.367282)n1:0.680139)n0;

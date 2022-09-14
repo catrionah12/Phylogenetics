@@ -1,0 +1,1 @@
+(oneline_A99_genome_proteins_scaffold9.g3205.t1:0.550631,((oneline_A99_genome_proteins_scaffold6.g2725.t1:0.845889,oneline_A99_genome_proteins_scaffold6.g2911.t1:1.7233):0.664458,(oneline_A99_genome_proteins_scaffold22.g6121.t1:0.208332,oneline_A99_genome_proteins_scaffold22.g6131.t1:0.438389):0.737692):0.550631);
